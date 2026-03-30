@@ -6,14 +6,14 @@
 
 | 工具 | 命令 | 说明 |
 |------|------|------|
-| [1Password CLI](1password.md) | `op` | CI/CD 流水线中安全注入密钥和环境变量 |
-| [Auth0 CLI](auth0.md) | `auth0` | 管理 Auth0 租户中的 Applications、APIs、Users 和 Rules |
-| [Bitwarden CLI](bitwarden.md) | `bw` | 在 CI/CD 和脚本中安全获取密钥、密码和令牌 |
-| [Let's Encrypt CLI](certbot.md) | `certbot` | 自动化申请和续期 Let's Encrypt 免费 SSL/TLS 证书 |
-| [Cloudflare Access CLI](cloudflared.md) | `cloudflared` | 创建 Cloudflare Tunnel 安全暴露内网服务，无需开放公网端口 |
-| [Doppler CLI](doppler.md) | `doppler` | 跨环境（dev/staging/prod）统一管理应用密钥和环境变量 |
-| [Infisical CLI](infisical.md) | `infisical` | 管理和同步项目级密钥，支持多环境切换 |
-| [Keycloak CLI](keycloak.md) | `kcadm` | 自动化管理 Keycloak Realm、Users、Roles 和 Clients |
-| [Okta CLI](okta.md) | `okta` | 快速创建和配置 Okta 应用集成（SAML/OIDC） |
-| [SSLyze CLI](sslyze.md) | `sslyze` | 安全审计和合规检查，评估服务器 SSL/TLS 配置强度 |
-| [Vault CLI](vault.md) | `vault` | 管理应用密钥、数据库凭证和 TLS 证书的生命周期 |
+| [1Password CLI](1password.md) | `op` | 1Password 命令行入口，支持 Biometric 解锁和密钥注入 |
+| [Auth0 CLI](auth0.md) | `auth0` | 快速创建 OIDC/SAML 应用，几秒钟搭好认证系统 |
+| [Bitwarden CLI](bitwarden.md) | `bw` | 开源密码管理器 CLI，CI/CD 中安全获取凭证 |
+| [Let's Encrypt CLI](certbot.md) | `certbot` | 免费 SSL 证书自动申请和续期，支持 Nginx/Apache 自动配置 |
+| [Cloudflare Access CLI](cloudflared.md) | `cloudflared` | 零信任隧道，安全暴露本地服务到公网，无需开放端口 |
+| [Doppler CLI](doppler.md) | `doppler` | 密钥的环境变量管理器，dev/staging/prod 一键切换 |
+| [Infisical CLI](infisical.md) | `infisical` | 开源密钥管理平台 CLI，支持密钥版本化和审计日志 |
+| [Keycloak CLI](keycloak.md) | `kcadm` | Keycloak 管理 Admin CLI，批量操作 Realm/用户/角色/客户端 |
+| [Okta CLI](okta.md) | `okta` | Okta 快速原型工具，命令行搭好 SSO 集成（已 deprecated） |
+| [SSLyze CLI](sslyze.md) | `sslyze` | SSL/TLS 安全审计扫描器，检测证书链、协议版本和漏洞 |
+| [Vault CLI](vault.md) | `vault` | HashiCorp 出品，动态生成数据库凭证，密钥自动轮转 |

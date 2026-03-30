@@ -6,10 +6,10 @@
 
 | 工具 | 命令 | 说明 |
 |------|------|------|
-| [钉钉 CLI](dingtalk.md) | `dingtalk` | 钉钉消息发送与自动化 |
-| [Discord CLI](discord.md) | `discord` | Discord 消息自动化 |
-| [飞书 CLI](feishu.md) | `lark` | 飞书消息发送与自动化 |
-| [Slack CLI](slack.md) | `slack` | Slack 应用开发与调试 |
-| [Microsoft Teams CLI](teams.md) | `teams` | Teams 应用开发与调试 |
-| [Telegram CLI](telegram.md) | `telegram-cli` | Telegram 消息自动化发送 |
-| [Zoom CLI](zoom.md) | `zoom` | Zoom 会议创建与管理 |
+| [钉钉 CLI](dingtalk.md) | `dingtalk` | 从终端发送钉钉群消息和机器人通知，CI/CD 告警推送 |
+| [Discord CLI](discord.md) | `discord` | 终端操作 Discord 频道消息、Bot 管理，适合自动化工作流 |
+| [飞书 CLI](feishu.md) | `lark` | 飞书/Feishu 消息、日历、文档一体化操作，企业自动化利器 |
+| [Slack CLI](slack.md) | `slack` | 官方维护，支持 Block Kit 消息模板，开发调试两不误 |
+| [Microsoft Teams CLI](teams.md) | `teams` | TeamsFX 工具链，项目创建到部署一条龙，支持 Local Debug |
+| [Telegram CLI](telegram.md) | `telegram-cli` | 终端收发 Telegram 消息，脚本化定时通知和 Bot 交互 |
+| [Zoom CLI](zoom.md) | `zoom` | 命令行创建/启动 Zoom 会议，自动化会议调度和录制管理 |
