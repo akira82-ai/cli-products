@@ -1,6 +1,6 @@
 # CLI Products Collection
 
-> 全面收集国内外提供 CLI 能力的产品工具，涵盖 25+ 个分类、250+ 个工具。
+> 全面收集国内外提供 CLI 能力的产品工具，涵盖 25+ 个分类、270+ 个工具。
 
 ## 分类目录
 
@@ -20,7 +20,7 @@
 | 数据分析 | [data-analytics/](data-analytics/) | 10 | BigQuery/Snowflake/dbt/Spark 等 |
 | 即时通讯 | [messaging/](messaging/) | 8 | 飞书/钉钉/Slack/Teams/Discord 等 |
 | 项目管理 | [project-management/](project-management/) | 8 | Jira/Linear/Notion/Trello 等 |
-| CI/CD | [cicd/](cicd/) | 14 | Jenkins/CircleCI/ArgoCD/Flux 等 |
+| CI/CD | [cicd/](cicd/) | 15 | Jenkins/CircleCI/ArgoCD/Flux 等 |
 | CDN/网络 | [cdn-network/](cdn-network/) | 6 | Cloudflare/Fastly/Akamai 等 |
 | 支付/电商 | [payment/](payment/) | 5 | Stripe/Shopify/Square 等 |
 | 邮件/营销 | [email-marketing/](email-marketing/) | 6 | Twilio/SendGrid/Mailchimp 等 |
@@ -28,9 +28,9 @@
 | 包管理器/运行时 | [package-manager/](package-manager/) | 19 | npm/pip/cargo/brew 等 |
 | 大厂工具套件 | [big-tech/](big-tech/) | 40+ | Google/Microsoft/Amazon/Apple/Meta |
 | 静态站点/框架 | [static-site/](static-site/) | 7 | Hugo/Next.js/Astro 等 |
-| 测试工具 | [testing/](testing/) | 7 | Playwright/Cypress/k6 等 |
-| 开发者实用工具 | [dev-utility/](dev-utility/) | 20+ | jq/yq/lazygit/rclone 等 |
-| 文档工具 | [docs-tool/](docs-tool/) | 3 | MkDocs/Docusaurus/Sphinx |
+| 测试工具 | [testing/](testing/) | 8 | Playwright/Cypress/k6/ShellSpec 等 |
+| 开发者实用工具 | [dev-utility/](dev-utility/) | 18 | jq/yq/lazygit/rclone/bat/tldr 等 |
+| 文档工具 | [docs-tool/](docs-tool/) | 7 | MkDocs/Docusaurus/glow/marp 等 |
 
 ## 贡献指南
 
