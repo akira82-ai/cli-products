@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://developer.paypal.com/docs/api/overview/
-- 安装方式：`npm install -g @paypal/cli`（官方无独立 CLI，社区方案）
+- 安装方式：无官方 CLI（`@paypal/cli` 不存在于 npm），通过 REST API 操作
 - 开源：否
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：N/A（PayPal 主要通过 API/SDK 操作）

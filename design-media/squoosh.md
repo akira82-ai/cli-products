@@ -2,24 +2,21 @@
 
 ## 基本信息
 - 官方文档：https://github.com/GoogleChromeLabs/squoosh
-- 安装方式：`npm install -g @nicolo-ribaudo/squoosh-cli` 或 `npx @nicolo-ribaudo/squoosh-cli`
+- 安装方式：`npm install -g @nicolo-ribaudo/squoosh-cli`（该包已不存在于 npm，建议使用 `sharp-cli` 替代）
 - 开源：是 (Apache-2.0)
-- 平台支持：macOS / Linux / Windows
-- 最后验证版本：v0.7.2
+- 平台支持：—
+- 最后验证版本：—（原包已下架）
 
 ## 核心命令示例
 ```bash
-# 压缩图片为 WebP 格式
-npx @nicolo-ribaudo/squoosh-cli --mozjpeg '{quality:80}' input.jpg -d ./output
+# 使用 sharp-cli 压缩图片（推荐替代方案）
+npx sharp-cli --input input.jpg --output ./output/output.webp --format webp
 
-# 批量压缩目录下所有图片
-npx @nicolo-ribaudo/squoosh-cli -d ./compressed ./images/*.jpg
+# 转换为 AVIF 格式
+npx sharp-cli --input input.png --output ./output/output.avif --format avif --quality 60
 
-# 转换为 AVIF 格式并设置质量
-npx @nicolo-ribaudo/squoosh-cli --avif '{quality:60}' input.png -d ./output
-
-# 调整尺寸并压缩
-npx @nicolo-ribaudo/squoosh-cli --resize '{width:800}' --webp '{quality:75}' input.png -d ./output
+# 调整尺寸
+npx sharp-cli --input input.png --output ./output/output.jpg --resize 800 --format jpeg --quality 75
 ```
 
 ## 适用场景

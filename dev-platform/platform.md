@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://docs.platform.sh/administration/cli.html
-- 安装方式：brew install platformsh/tap/platformsh-cli
+- 安装方式：`brew tap platformsh/tap && brew install platformsh-cli`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：4.24

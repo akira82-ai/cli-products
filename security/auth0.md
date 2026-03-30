@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://auth0.github.io/auth0-cli
-- 安装方式：`brew install auth0-cli`
+- 安装方式：`brew tap auth0/auth0-cli && brew install auth0-cli`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：1.8.0

@@ -2,27 +2,27 @@
 
 ## 基本信息
 - 官方文档：https://learn.microsoft.com/microsoftteams/platform/
-- 安装方式：`npm install -g @microsoft/teams-cli`
+- 安装方式：`npm install -g @microsoft/teamsfx`
 - 开源：否
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：—
 
 ## 核心命令示例
 ```bash
-# 登录认证
-teams login
+# 创建新 Teams 应用项目
+teamsfx new
 
-# 创建 Teams 应用
-teams app create
+# 预览应用
+teamsfx preview
 
-# 安装应用到团队
-teams app install
+# 部署到 Teams
+teamsfx deploy
 
-# 发送消息
-teams message send
+# 查看帮助
+teamsfx --help
 ```
 
-> `teams login` 等操作需先完成认证。
+> `teamsfx` 是 Microsoft Teams 开发工具链（Teams Toolkit CLI），用于应用开发而非消息操作。
 
 ## 适用场景
 - Teams 应用开发与调试

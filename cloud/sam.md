@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://docs.aws.amazon.com/serverless-application-model/
-- 安装方式：`brew install aws/tap/sam-cli` / `pip install aws-sam-cli`
+- 安装方式：`brew tap aws/tap && brew install aws-sam-cli` / `pip install aws-sam-cli`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：待验证

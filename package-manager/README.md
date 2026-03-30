@@ -4,24 +4,24 @@
 
 ## 工具列表
 
-| 工具 | 命令 |
-|------|------|
-| [Homebrew](brew.md) | `brew` |
-| [Bun](bun.md) | `bun` |
-| [Cargo](cargo.md) | `cargo` |
-| [Composer](composer.md) | `composer` |
-| [conda](conda.md) | `conda` |
-| [Deno](deno.md) | `deno` |
-| [.NET CLI](dotnet.md) | `dotnet` |
-| [gem](gem.md) | `gem` |
-| [Go](go.md) | `go` |
-| [Gradle](gradle.md) | `gradle` |
-| [Maven](maven.md) | `mvn` |
-| [Node.js](node.md) | `node` |
-| [npm](npm.md) | `npm` |
-| [NuGet CLI](nuget.md) | `nuget` |
-| [pip](pip.md) | `pip` |
-| [pnpm](pnpm.md) | `pnpm` |
-| [Poetry](poetry.md) | `poetry` |
-| [uv](uv.md) | `uv` |
-| [Yarn](yarn.md) | `yarn` |
+| 工具 | 命令 | 说明 |
+|------|------|------|
+| [Homebrew](brew.md) | `brew` | macOS 上安装和管理开发工具和系统软件 |
+| [Bun](bun.md) | `bun` | 追求极致性能的 JavaScript/TypeScript 运行时 |
+| [Cargo](cargo.md) | `cargo` | Rust 项目的构建、测试和发布全生命周期管理 |
+| [Composer](composer.md) | `composer` | PHP 项目依赖管理和自动加载 |
+| [conda](conda.md) | `conda` | 数据科学和机器学习环境管理 |
+| [Deno](deno.md) | `deno` | 安全优先的 TypeScript/JavaScript 运行时 |
+| [.NET CLI](dotnet.md) | `dotnet` | .NET/C#/F# 项目的创建、构建和发布 |
+| [gem](gem.md) | `gem` | Ruby 包（Gem）的安装和管理 |
+| [Go](go.md) | `go` | Go 项目的模块管理和依赖控制 |
+| [Gradle](gradle.md) | `gradle` | Java/Kotlin/Android 项目的构建和依赖管理 |
+| [Maven](maven.md) | `mvn` | Java 项目的标准化构建和依赖管理 |
+| [Node.js](node.md) | `node` | 服务端 JavaScript/TypeScript 应用运行时 |
+| [npm](npm.md) | `npm` | Node.js 项目的依赖管理和脚本运行 |
+| [NuGet CLI](nuget.md) | `nuget` | .NET 包的创建、发布和管理 |
+| [pip](pip.md) | `pip` | Python 项目依赖管理和虚拟环境配置 |
+| [pnpm](pnpm.md) | `pnpm` | 节省磁盘空间的高效包管理（内容寻址存储） |
+| [Poetry](poetry.md) | `poetry` | 现代化的 Python 项目依赖管理（替代 pip + venv） |
+| [uv](uv.md) | `uv` | 极速 Python 包安装和管理（Rust 编写，比 pip 快 10-100 倍） |
+| [Yarn](yarn.md) | `yarn` | 大型 Node.js 项目的快速依赖安装（Plug'n'Play） |

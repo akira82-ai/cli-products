@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://github.com/okta/okta-cli
-- 安装方式：`brew install okta-cli`
+- 安装方式：`brew tap okta/tap && brew install okta-cli`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：0.4.0（已 deprecated）

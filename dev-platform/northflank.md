@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://northflank.com/docs
-- 安装方式：npm install -g northflank
+- 安装方式：npm install -g @northflank/cli
 - 开源：否
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：0.2

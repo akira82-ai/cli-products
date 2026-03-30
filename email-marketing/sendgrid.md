@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://docs.sendgrid.com/for-developers/sending-email
-- 安装方式：`npm install -g sendgrid-cli`（社区方案）
+- 安装方式：无官方 CLI（`sendgrid-cli` 不存在于 npm），通过 REST API 操作
 - 开源：否（官方主要通过 API/SDK）
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：N/A（主要通过 API 操作）

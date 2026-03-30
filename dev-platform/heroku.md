@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://devcenter.heroku.com/articles/heroku-cli
-- 安装方式：brew install heroku/brew/heroku
+- 安装方式：`brew tap heroku/brew && brew install heroku`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：9.2

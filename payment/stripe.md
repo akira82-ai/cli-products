@@ -2,7 +2,7 @@
 
 ## 基本信息
 - 官方文档：https://docs.stripe.com/stripe-cli
-- 安装方式：`brew install stripe/stripe-cli/stripe`
+- 安装方式：`brew tap stripe/stripe-cli && brew install stripe`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows
 - 最后验证版本：v1.22.3

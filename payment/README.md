@@ -4,10 +4,10 @@
 
 ## 工具列表
 
-| 工具 | 命令 |
-|------|------|
-| [Braintree CLI](braintree.md) | `braintree` |
-| [PayPal CLI](paypal.md) | `paypal` |
-| [Shopify CLI](shopify.md) | `shopify` |
-| [Square CLI](square.md) | `square` |
-| [Stripe CLI](stripe.md) | `stripe` |
+| 工具 | 命令 | 说明 |
+|------|------|------|
+| [Braintree CLI](braintree.md) | `braintree` | 集成 PayPal 旗下 Braintree 支付网关 |
+| [PayPal CLI](paypal.md) | `paypal` | 电商平台集成 PayPal 支付流程 |
+| [Shopify CLI](shopify.md) | `shopify` | 开发和调试 Shopify 应用与主题 |
+| [Square CLI](square.md) | `square` | 快速测试 Square API 端点而无需编写代码 |
+| [Stripe CLI](stripe.md) | `stripe` | 本地开发调试 Stripe Webhook，无需暴露公网端口 |
