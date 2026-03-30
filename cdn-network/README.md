@@ -6,4 +6,6 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Akamai CLI](akamai.md) | `akamai` |\n| [Bunny CLI](bunny.md) | `bunny-cli` |\n| [Fastly CLI](fastly.md) | `fastly` |\n
+| [Akamai CLI](akamai.md) | `akamai` |
+| [Bunny CLI](bunny.md) | `bunny-cli` |
+| [Fastly CLI](fastly.md) | `fastly` |

@@ -6,4 +6,15 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Cassandra CLI](cassandra.md) | `cqlsh` |\n| [CockroachDB CLI](cockroachdb.md) | `cockroach` |\n| [etcd CLI](etcd.md) | `etcdctl` |\n| [InfluxDB CLI](influxdb.md) | `influx` |\n| [MongoDB Atlas CLI](mongodb-atlas.md) | `atlas` |\n| [MongoDB Shell](mongodb.md) | `mongosh` |\n| [MySQL CLI](mysql.md) | `mysql` |\n| [Neo4j CLI](neo4j.md) | `cypher-shell` |\n| [PostgreSQL CLI](postgresql.md) | `psql` |\n| [Redis CLI](redis.md) | `redis-cli` |\n| [SQLite CLI](sqlite.md) | `sqlite3` |\n| [TiDB CLI](tidb.md) | `tidb` |\n
+| [Cassandra CLI](cassandra.md) | `cqlsh` |
+| [CockroachDB CLI](cockroachdb.md) | `cockroach` |
+| [etcd CLI](etcd.md) | `etcdctl` |
+| [InfluxDB CLI](influxdb.md) | `influx` |
+| [MongoDB Atlas CLI](mongodb-atlas.md) | `atlas` |
+| [MongoDB Shell](mongodb.md) | `mongosh` |
+| [MySQL CLI](mysql.md) | `mysql` |
+| [Neo4j CLI](neo4j.md) | `cypher-shell` |
+| [PostgreSQL CLI](postgresql.md) | `psql` |
+| [Redis CLI](redis.md) | `redis-cli` |
+| [SQLite CLI](sqlite.md) | `sqlite3` |
+| [TiDB CLI](tidb.md) | `tidb` |

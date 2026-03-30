@@ -6,4 +6,16 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Aider](aider.md) | `aider` |\n| [Amazon Q CLI](amazon-q.md) | `q` |\n| [Claude Code CLI](claude-code.md) | `claude` |\n| [Cline CLI](cline.md) | `cline` |\n| [CloudBase AI CLI](cloudbase.md) | `cloudbase` |\n| [CodeBuddy CLI](codebuddy.md) | `codebuddy` |\n| [OpenAI Codex CLI](codex.md) | `codex` |\n| [Gemini CLI](gemini.md) | `gemini` |\n| [GitHub Copilot CLI](github-copilot.md) | `gh copilot` |\n| [Goose CLI](goose.md) | `goose` |\n| [Kimi CLI](kimi.md) | `kimi` |\n| [OpenCode CLI](opencode.md) | `opencode` |\n| [Qwen Code CLI](qwen-code.md) | `qwen-code` |\n
+| [Aider](aider.md) | `aider` |
+| [Amazon Q CLI](amazon-q.md) | `q` |
+| [Claude Code CLI](claude-code.md) | `claude` |
+| [Cline CLI](cline.md) | `cline` |
+| [CloudBase AI CLI](cloudbase.md) | `cloudbase` |
+| [CodeBuddy CLI](codebuddy.md) | `codebuddy` |
+| [OpenAI Codex CLI](codex.md) | `codex` |
+| [Gemini CLI](gemini.md) | `gemini` |
+| [GitHub Copilot CLI](github-copilot.md) | `gh copilot` |
+| [Goose CLI](goose.md) | `goose` |
+| [Kimi CLI](kimi.md) | `kimi` |
+| [OpenCode CLI](opencode.md) | `opencode` |
+| [Qwen Code CLI](qwen-code.md) | `qwen-code` |

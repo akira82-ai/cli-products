@@ -6,4 +6,9 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Asana CLI](asana.md) | `asana` |\n| [Jira CLI](jira.md) | `jira` |\n| [Linear CLI](linear.md) | `linear` |\n| [Monday.com CLI](monday.md) | `monday` |\n| [Notion CLI](notion.md) | `notion` |\n| [Trello CLI](trello.md) | `trello` |\n
+| [Asana CLI](asana.md) | `asana` |
+| [Jira CLI](jira.md) | `jira` |
+| [Linear CLI](linear.md) | `linear` |
+| [Monday.com CLI](monday.md) | `monday` |
+| [Notion CLI](notion.md) | `notion` |
+| [Trello CLI](trello.md) | `trello` |

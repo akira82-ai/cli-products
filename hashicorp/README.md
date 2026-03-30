@@ -6,4 +6,10 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Boundary CLI](boundary.md) | `boundary` |\n| [Consul CLI](consul.md) | `consul` |\n| [Nomad CLI](nomad.md) | `nomad` |\n| [Packer CLI](packer.md) | `packer` |\n| [Vagrant CLI](vagrant.md) | `vagrant` |\n| [Vault CLI](vault.md) | `vault` |\n| [Waypoint CLI](waypoint.md) | `waypoint` |\n
+| [Boundary CLI](boundary.md) | `boundary` |
+| [Consul CLI](consul.md) | `consul` |
+| [Nomad CLI](nomad.md) | `nomad` |
+| [Packer CLI](packer.md) | `packer` |
+| [Vagrant CLI](vagrant.md) | `vagrant` |
+| [Vault CLI](vault.md) | `vault` |
+| [Waypoint CLI](waypoint.md) | `waypoint` |

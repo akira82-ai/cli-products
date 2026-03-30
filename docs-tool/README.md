@@ -6,10 +6,10 @@
 
 | 工具 | 命令 |
 |------|------|
-| [alex](alex.md) | `alex` |
+| [Alex](alex.md) | `alex` |
 | [DocToc](doctoc.md) | `doctoc` |
 | [Docusaurus CLI](docusaurus.md) | `docusaurus` |
-| [glow](glow.md) | `glow` |
-| [marp](marp.md) | `marp` |
+| [Glow](glow.md) | `glow` |
+| [Marp CLI](marp.md) | `marp` |
 | [MkDocs CLI](mkdocs.md) | `mkdocs` |
-| [translate-shell](translate-shell.md) | `trans` |
+| [Translate Shell](translate-shell.md) | `trans` |

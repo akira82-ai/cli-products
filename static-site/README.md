@@ -6,4 +6,6 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Astro CLI](astro.md) | `astro` |\n| [Hugo CLI](hugo.md) | `hugo` |\n| [Next.js CLI](nextjs.md) | `next` |\n
+| [Astro CLI](astro.md) | `astro` |
+| [Hugo CLI](hugo.md) | `hugo` |
+| [Next.js CLI](nextjs.md) | `next` |

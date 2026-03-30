@@ -6,4 +6,13 @@
 
 | 工具 | 命令 |
 |------|------|
-| [阿里云 CLI](aliyun.md) | `aliyun` |\n| [AWS CLI](aws.md) | `aws` |\n| [Azure CLI](az.md) | `az` |\n| [AWS CDK CLI](cdk.md) | `cdk` |\n| [AWS EB CLI](eb.md) | `eb` |\n| [EKS CLI](eksctl.md) | `eksctl` |\n| [Google Cloud CLI](gcloud.md) | `gcloud` |\n| [Google Cloud Storage CLI](gsutil.md) | `gsutil` |\n| [AWS SAM CLI](sam.md) | `sam` |\n| [腾讯云 CLI](tccli.md) | `tccli` |\n
+| [阿里云 CLI](aliyun.md) | `aliyun` |
+| [AWS CLI](aws.md) | `aws` |
+| [Azure CLI](az.md) | `az` |
+| [AWS CDK CLI](cdk.md) | `cdk` |
+| [AWS EB CLI](eb.md) | `eb` |
+| [EKS CLI](eksctl.md) | `eksctl` |
+| [Google Cloud CLI](gcloud.md) | `gcloud` |
+| [Google Cloud Storage CLI](gsutil.md) | `gsutil` |
+| [AWS SAM CLI](sam.md) | `sam` |
+| [腾讯云 CLI](tccli.md) | `tccli` |

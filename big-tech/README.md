@@ -6,4 +6,11 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Fastlane](fastlane.md) | `fastlane` |\n| [Flutter CLI](flutter.md) | `flutter` |\n| [PowerShell](pwsh.md) | `pwsh` |\n| [React Native CLI](react-native.md) | `react-native` |\n| [simctl](simctl.md) | `simctl` |\n| [VS Code CLI](vscode.md) | `code` |\n| [winget](winget.md) | `winget` |\n| [xcodebuild](xcodebuild.md) | `xcodebuild` |\n
+| [Fastlane](fastlane.md) | `fastlane` |
+| [Flutter CLI](flutter.md) | `flutter` |
+| [PowerShell](pwsh.md) | `pwsh` |
+| [React Native CLI](react-native.md) | `react-native` |
+| [simctl](simctl.md) | `simctl` |
+| [VS Code CLI](vscode.md) | `code` |
+| [winget](winget.md) | `winget` |
+| [xcodebuild](xcodebuild.md) | `xcodebuild` |

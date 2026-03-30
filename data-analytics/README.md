@@ -6,4 +6,11 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Apache Airflow CLI](airflow.md) | `airflow` |\n| [BigQuery CLI](bigquery.md) | `bq` |\n| [Databricks CLI](databricks.md) | `databricks` |\n| [dbt CLI](dbt.md) | `dbt` |\n| [Apache Flink CLI](flink.md) | `flink` |\n| [Apache Kafka CLI](kafka.md) | - |\n| [Snowflake CLI](snowflake.md) | `snow` |\n| [Apache Spark CLI](spark.md) | `spark-submit` |\n
+| [Apache Airflow CLI](airflow.md) | `airflow` |
+| [BigQuery CLI](bigquery.md) | `bq` |
+| [Databricks CLI](databricks.md) | `databricks` |
+| [dbt CLI](dbt.md) | `dbt` |
+| [Apache Flink CLI](flink.md) | `flink` |
+| [Apache Kafka CLI](kafka.md) | `kafka-*` |
+| [Snowflake CLI](snowflake.md) | `snow` |
+| [Apache Spark CLI](spark.md) | `spark-submit` |

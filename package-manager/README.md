@@ -6,4 +6,22 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Homebrew](brew.md) | `brew` |\n| [Bun](bun.md) | `bun` |\n| [Cargo](cargo.md) | `cargo` |\n| [Composer](composer.md) | `composer` |\n| [conda](conda.md) | `conda` |\n| [Deno](deno.md) | `deno` |\n| [.NET CLI](dotnet.md) | `dotnet` |\n| [gem](gem.md) | `gem` |\n| [Go](go.md) | `go` |\n| [Gradle](gradle.md) | `gradle` |\n| [Maven](maven.md) | `mvn` |\n| [Node.js](node.md) | `node` |\n| [npm](npm.md) | `npm` |\n| [NuGet CLI](nuget.md) | `nuget` |\n| [pip](pip.md) | `pip` |\n| [pnpm](pnpm.md) | `pnpm` |\n| [Poetry](poetry.md) | `poetry` |\n| [uv](uv.md) | `uv` |\n| [Yarn](yarn.md) | `yarn` |\n
+| [Homebrew](brew.md) | `brew` |
+| [Bun](bun.md) | `bun` |
+| [Cargo](cargo.md) | `cargo` |
+| [Composer](composer.md) | `composer` |
+| [conda](conda.md) | `conda` |
+| [Deno](deno.md) | `deno` |
+| [.NET CLI](dotnet.md) | `dotnet` |
+| [gem](gem.md) | `gem` |
+| [Go](go.md) | `go` |
+| [Gradle](gradle.md) | `gradle` |
+| [Maven](maven.md) | `mvn` |
+| [Node.js](node.md) | `node` |
+| [npm](npm.md) | `npm` |
+| [NuGet CLI](nuget.md) | `nuget` |
+| [pip](pip.md) | `pip` |
+| [pnpm](pnpm.md) | `pnpm` |
+| [Poetry](poetry.md) | `poetry` |
+| [uv](uv.md) | `uv` |
+| [Yarn](yarn.md) | `yarn` |

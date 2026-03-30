@@ -6,4 +6,8 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Braintree CLI](braintree.md) | `braintree` |\n| [PayPal CLI](paypal.md) | `paypal` |\n| [Shopify CLI](shopify.md) | `shopify` |\n| [Square CLI](square.md) | `square` |\n| [Stripe CLI](stripe.md) | `stripe` |\n
+| [Braintree CLI](braintree.md) | `braintree` |
+| [PayPal CLI](paypal.md) | `paypal` |
+| [Shopify CLI](shopify.md) | `shopify` |
+| [Square CLI](square.md) | `square` |
+| [Stripe CLI](stripe.md) | `stripe` |

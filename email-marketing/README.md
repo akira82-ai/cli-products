@@ -6,4 +6,9 @@
 
 | 工具 | 命令 |
 |------|------|
-| [AWS SES](aws-ses.md) | `aws ses` |\n| [Mailchimp CLI](mailchimp.md) | `mailchimp` |\n| [Postmark CLI](postmark.md) | `postmark` |\n| [Resend CLI](resend.md) | `resend` |\n| [SendGrid CLI](sendgrid.md) | `sendgrid` |\n| [Twilio CLI](twilio.md) | `twilio` |\n
+| [AWS SES](aws-ses.md) | `aws ses` |
+| [Mailchimp CLI](mailchimp.md) | `mailchimp` |
+| [Postmark CLI](postmark.md) | `postmark` |
+| [Resend CLI](resend.md) | `resend` |
+| [SendGrid CLI](sendgrid.md) | `sendgrid` |
+| [Twilio CLI](twilio.md) | `twilio` |

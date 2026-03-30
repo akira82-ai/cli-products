@@ -6,4 +6,15 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Buildah CLI](buildah.md) | `buildah` |\n| [Docker Compose CLI](docker-compose.md) | `docker compose` |\n| [Docker CLI](docker.md) | `docker` |\n| [Helm CLI](helm.md) | `helm` |\n| [K3s](k3s.md) | `k3s` |\n| [K9s](k9s.md) | `k9s` |\n| [Kaniko](kaniko.md) | `kaniko` |\n| [kind](kind.md) | `kind` |\n| [Kubernetes CLI](kubectl.md) | `kubectl` |\n| [Minikube](minikube.md) | `minikube` |\n| [Podman CLI](podman.md) | `podman` |\n| [Skopeo CLI](skopeo.md) | `skopeo` |\n
+| [Buildah CLI](buildah.md) | `buildah` |
+| [Docker Compose CLI](docker-compose.md) | `docker compose` |
+| [Docker CLI](docker.md) | `docker` |
+| [Helm CLI](helm.md) | `helm` |
+| [K3s](k3s.md) | `k3s` |
+| [K9s](k9s.md) | `k9s` |
+| [Kaniko](kaniko.md) | `kaniko` |
+| [kind](kind.md) | `kind` |
+| [Kubernetes CLI](kubectl.md) | `kubectl` |
+| [Minikube](minikube.md) | `minikube` |
+| [Podman CLI](podman.md) | `podman` |
+| [Skopeo CLI](skopeo.md) | `skopeo` |

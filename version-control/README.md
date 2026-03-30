@@ -6,4 +6,8 @@
 
 | 工具 | 命令 |
 |------|------|
-| [Bitbucket CLI](bitbucket.md) | `bitbucket` |\n| [GitHub Codespaces CLI](codespaces.md) | `gh cs` |\n| [Git](git.md) | `git` |\n| [GitHub CLI](github.md) | `gh` |\n| [GitLab CLI](gitlab.md) | `glab` |\n
+| [Bitbucket CLI](bitbucket.md) | `bitbucket` |
+| [GitHub Codespaces CLI](codespaces.md) | `gh cs` |
+| [Git](git.md) | `git` |
+| [GitHub CLI](github.md) | `gh` |
+| [GitLab CLI](gitlab.md) | `glab` |
