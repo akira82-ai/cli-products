@@ -1,6 +1,6 @@
 # 开发者实用工具
 
-共收录 18 个 CLI 工具。
+共收录 19 个 CLI 工具。
 
 ## 工具列表
 
@@ -23,4 +23,5 @@
 | [tldr](tldr.md) | `tldr` | 替代 man 页的社区版速查，用例驱动，一眼看懂怎么用 |
 | [xq](xq.md) | `xq` | jq 的 XML/HTML 版本，用 jq 语法解析 XML |
 | [yt-dlp](yt-dlp.md) | `yt-dlp` | youtube-dl 的活跃分支，支持 1000+ 站点，下载速度快 |
+| [OpenCLI-RS](opencli-rs.md) | `opencli-rs` | Rust 零依赖全能 CLI，终端浏览 55+ 平台，支持浏览器复用和桌面控制 |
 | [yq](yq.md) | `yq` | YAML 版的 jq，支持格式互转，K8s 配置文件处理利器 |
