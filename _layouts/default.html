@@ -1,216 +1,317 @@
----
----
-
 <!DOCTYPE html>
-<html lang="zh-CN" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description | default: site.title }}">
-    <meta name="author" content="{{ site.author | default: 'Anonymous' }}">
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description | default: site.title }}">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-    <!-- Just the Docs CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <style>
+    :root {
+      --primary: #6366f1;
+      --secondary: #8b5cf6;
+      --accent: #ec4899;
+      --bg-primary: #ffffff;
+      --bg-secondary: #f8fafc;
+      --bg-tertiary: #f1f5f9;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-tertiary: #94a3b8;
+      --border-color: #e2e8f0;
+      --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%);
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+      --radius-md: 0.5rem;
+      --radius-lg: 0.75rem;
+      --radius-xl: 1rem;
+    }
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    [data-theme="dark"] {
+      --bg-primary: #0f172a;
+      --bg-secondary: #1e293b;
+      --bg-tertiary: #334155;
+      --text-primary: #f1f5f9;
+      --text-secondary: #cbd5e1;
+      --text-tertiary: #64748b;
+      --border-color: #334155;
+    }
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/logo.svg' | relative_url }}">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <style>
-      /* Override just-the-docs styles */
-      .side-bar {
-        background: var(--bg-secondary);
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text-primary);
+      background: var(--bg-primary);
+      min-height: 100vh;
+    }
+
+    .header {
+      background: var(--gradient-primary);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow-md);
+    }
+
+    .header-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.125rem;
+    }
+
+    .logo img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .nav a {
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
+      font-weight: 500;
+      transition: opacity 0.2s;
+    }
+
+    .nav a:hover {
+      opacity: 1;
+    }
+
+    .theme-toggle {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 2rem;
+      cursor: pointer;
+      font-size: 0.875rem;
+      transition: background 0.2s;
+    }
+
+    .theme-toggle:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .page-header {
+      margin-bottom: 2rem;
+    }
+
+    .page-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .content {
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    .content h2 {
+      font-size: 1.75rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--text-primary);
+    }
+
+    .content h3 {
+      font-size: 1.375rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .content p {
+      margin-bottom: 1rem;
+    }
+
+    .content a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    .content code {
+      font-family: 'JetBrains Mono', monospace;
+      background: var(--bg-tertiary);
+      padding: 0.2rem 0.4rem;
+      border-radius: 0.25rem;
+      font-size: 0.875em;
+    }
+
+    .content pre {
+      background: var(--bg-tertiary);
+      padding: 1rem;
+      border-radius: var(--radius-lg);
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+
+    .content pre code {
+      background: none;
+      padding: 0;
+    }
+
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+      background: var(--bg-secondary);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+
+    .content th,
+    .content td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .content th {
+      background: var(--gradient-primary);
+      color: white;
+      font-weight: 600;
+    }
+
+    .content tr:last-child td {
+      border-bottom: none;
+    }
+
+    .footer {
+      background: var(--bg-secondary);
+      padding: 2rem;
+      text-align: center;
+      margin-top: 4rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .footer a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+
+    .footer a:hover {
+      color: var(--primary);
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        padding: 1rem;
       }
 
-      .main-header {
-        background: var(--bg-secondary);
-        border-bottom: 1px solid var(--border-color);
-      }
-
-      .main-content {
-        padding: 0;
-      }
-
-      .page {
-        padding: 2rem;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-
-      @media (max-width: 768px) {
-        .page {
-          padding: 1rem;
-        }
-      }
-    </style>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-
-    <script>
-      // Theme management
-      (function() {
-        const theme = localStorage.getItem('theme') ||
-          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-color-mode', theme);
-      })();
-    </script>
-  </head>
-
-  <body>
-    <div class="page-wrap">
-      <!-- Side Bar -->
-      <aside class="side-bar">
-        <div class="side-bar-content">
-          <a href="{{ '/' | relative_url }}" class="site-title">
-            <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" />
-            <span>{{ site.title }}</span>
-          </a>
-
-          {% if site.search_enabled != false %}
-            <div class="search-box">
-              <input type="text" id="search-input" class="search-input" placeholder="{{ site.search_placeholder_text | default: 'Search...' }}" />
-            </div>
-          {% endif %}
-
-          <nav role="navigation">
-            <ul class="nav-list">
-              {% for node in site.html_pages %}
-                {% unless node.nav_exclude %}
-                  <li class="nav-list-item{% if page.url == node.url %} active{% endif %}">
-                    <a href="{{ node.url | relative_url }}" class="nav-list-link">{{ node.title }}</a>
-                  </li>
-                {% endunless %}
-              {% endfor %}
-            </ul>
-          </nav>
-        </div>
-      </aside>
-
-      <!-- Main Content -->
-      <main class="main-content">
-        <header class="main-header">
-          <div class="header-content">
-            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-              <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="5"></circle>
-                <line x1="12" y1="1" x2="12" y2="3"></line>
-                <line x1="12" y1="21" x2="12" y2="23"></line>
-                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                <line x1="1" y1="12" x2="3" y2="12"></line>
-                <line x1="21" y1="12" x2="23" y2="12"></line>
-                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-              </svg>
-              <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-              </svg>
-            </button>
-          </div>
-        </header>
-
-        <div class="page">
-          {% if page.title %}
-            <h1>{{ page.title }}</h1>
-          {% endif %}
-
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-
-        <!-- Footer -->
-        <footer class="site-footer">
-          <div class="footer-links">
-            {% if site.repository %}
-              <a href="{{ site.repository }}" class="footer-link" target="_blank" rel="noopener">
-                GitHub
-              </a>
-            {% endif %}
-            <a href="{{ '/' | relative_url }}" class="footer-link">首页</a>
-            <a href="{{ '/contributing.md' | relative_url }}" class="footer-link">贡献指南</a>
-          </div>
-          <p class="footer-copyright">
-            &copy; {{ 'now' | date: '%Y' }} {{ site.author }}. Released under the MIT License.
-          </p>
-        </footer>
-      </main>
-    </div>
-
-    <!-- Just the Docs JS -->
-    <script src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
-
-    <!-- Custom JS -->
-    <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-
-    <style>
-      .theme-toggle {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        color: var(--text-secondary);
-        transition: color 0.3s ease;
-      }
-
-      .theme-toggle:hover {
-        color: var(--primary);
-      }
-
-      .sun-icon,
-      .moon-icon {
+      .nav {
         display: none;
       }
 
-      [data-color-mode="light"] .sun-icon {
-        display: block;
-      }
-
-      [data-color-mode="dark"] .moon-icon {
-        display: block;
-      }
-
-      .header-content {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        padding: 1rem 2rem;
-      }
-
-      .site-title {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
+      .main {
         padding: 1rem;
-        font-weight: 600;
-        color: var(--text-primary);
-        text-decoration: none;
       }
 
-      .site-title img {
-        width: 32px;
-        height: 32px;
+      .page-header h1 {
+        font-size: 1.75rem;
       }
-    </style>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <a href="{{ '/' | relative_url }}" class="logo">
+        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}">
+        <span>CLI Products</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ '/' | relative_url }}">首页</a>
+        <button class="theme-toggle" id="themeToggle">🌙 深色</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    {% if page.title %}
+      <header class="page-header">
+        <h1>{{ page.title }}</h1>
+      </header>
+    {% endif %}
+
+    <div class="content">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author }}. Released under the MIT License.</p>
+    <p style="margin-top: 0.5rem;">
+      <a href="{{ site.repository }}" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    // 主题切换
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+
+    // 加载保存的主题
+    const savedTheme = localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    html.setAttribute('data-theme', savedTheme);
+    updateThemeButton(savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateThemeButton(newTheme);
+    });
+
+    function updateThemeButton(theme) {
+      themeToggle.textContent = theme === 'dark' ? '☀️ 浅色' : '🌙 深色';
+    }
+  </script>
+</body>
 </html>
