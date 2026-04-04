@@ -1,0 +1,994 @@
+{
+  "categories": [
+    {
+      "id": "ai-tools",
+      "name": "ai-tools",
+      "icon": "🤖",
+      "tools": [
+        {
+          "name": "[Aider](aider.md)",
+          "command": "`aider`",
+          "description": "AI 结对编程"
+        },
+        {
+          "name": "[Amazon Q CLI](amazon-q.md)",
+          "command": "`q`",
+          "description": "AWS 环境下的 AI 编程辅助"
+        },
+        {
+          "name": "[Cline CLI](cline.md)",
+          "command": "`cline`",
+          "description": "VS Code 集成的 AI 编程助手"
+        },
+        {
+          "name": "[CloudBase AI CLI](cloudbase.md)",
+          "command": "`cloudbase`",
+          "description": "腾讯云开发平台 CLI"
+        },
+        {
+          "name": "[OpenAI Codex CLI](codex.md)",
+          "command": "`codex`",
+          "description": "终端 AI 编程代理"
+        },
+        {
+          "name": "[Comfy CLI](comfy.md)",
+          "command": "`comfy`",
+          "description": "ComfyUI 工作流管理"
+        },
+        {
+          "name": "[Gemini CLI](gemini.md)",
+          "command": "`gemini`",
+          "description": "Google AI 终端编程助手"
+        },
+        {
+          "name": "[GitHub Copilot CLI](github-copilot.md)",
+          "command": "`gh copilot`",
+          "description": "Shell 命令智能建议"
+        },
+        {
+          "name": "[Goose CLI](goose.md)",
+          "command": "`goose`",
+          "description": "Block 出品的 AI 编程代理"
+        },
+        {
+          "name": "[Hugging Face CLI](huggingface.md)",
+          "command": "`huggingface-cli` / `hf`",
+          "description": "AI 模型下载和上传"
+        },
+        {
+          "name": "[Kimi CLI](kimi.md)",
+          "command": "`kimi`",
+          "description": "月之暗面 Kimi AI 编程助手"
+        },
+        {
+          "name": "[Ollama CLI](ollama.md)",
+          "command": "`ollama`",
+          "description": "本地运行大语言模型"
+        },
+        {
+          "name": "[OpenCode CLI](opencode.md)",
+          "command": "`opencode`",
+          "description": "开源 AI 编程终端工具（Go 编写）"
+        },
+        {
+          "name": "[Qwen Code CLI](qwen-code.md)",
+          "command": "`qwen-code`",
+          "description": "阿里通义千问编程助手"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD",
+      "icon": "🔄",
+      "tools": [
+        {
+          "name": "[ArgoCD CLI](argocd.md)",
+          "command": "`argocd`",
+          "description": "GitOps 持续交付管理"
+        },
+        {
+          "name": "[Buildkite CLI](buildkite.md)",
+          "command": "`buildkite-agent`",
+          "description": "Buildkite CI/CD Agent 注册与管理"
+        },
+        {
+          "name": "[CircleCI CLI](circleci.md)",
+          "command": "`circleci`",
+          "description": "CI 配置文件验证与调试"
+        },
+        {
+          "name": "[Flux CLI](flux.md)",
+          "command": "`flux`",
+          "description": "GitOps 自动化部署"
+        },
+        {
+          "name": "[GitLab Runner CLI](gitlab-runner.md)",
+          "command": "`gitlab-runner`",
+          "description": "GitLab CI Runner 注册与配置"
+        },
+        {
+          "name": "[Jenkins CLI](jenkins.md)",
+          "command": "`jenkins-cli`",
+          "description": "Jenkins 任务远程触发"
+        },
+        {
+          "name": "[release-it](release-it.md)",
+          "command": "`release-it`",
+          "description": "自动化发版"
+        },
+        {
+          "name": "[Spinnaker CLI](spinnaker.md)",
+          "command": "`spin`",
+          "description": "Spinnaker 持续交付流水线管理"
+        },
+        {
+          "name": "[Tekton CLI](tekton.md)",
+          "command": "`tkn`",
+          "description": "Tekton CI/CD 流水线管理"
+        },
+        {
+          "name": "[Travis CI CLI](travis.md)",
+          "command": "`travis`",
+          "description": "Travis CI 构建状态查看"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "云服务商",
+      "icon": "☁️",
+      "tools": [
+        {
+          "name": "[AWS CLI](aws.md)",
+          "command": "`aws`",
+          "description": "管理 AWS 资源（EC2、S3、Lambda 等）"
+        },
+        {
+          "name": "[Azure CLI](az.md)",
+          "command": "`az`",
+          "description": "管理 Azure 资源（虚拟机、存储、网络等）"
+        },
+        {
+          "name": "[AWS CDK CLI](cdk.md)",
+          "command": "`cdk`",
+          "description": "用代码定义基础设施（Infrastructure as Code）"
+        },
+        {
+          "name": "[AWS EB CLI](eb.md)",
+          "command": "`eb`",
+          "description": "Elastic Beanstalk 应用部署和管理"
+        },
+        {
+          "name": "[Google Cloud CLI](gcloud.md)",
+          "command": "`gcloud`",
+          "description": "管理 GCP 资源（Compute Engine、Cloud Functions 等）"
+        },
+        {
+          "name": "[Google Cloud Storage CLI](gsutil.md)",
+          "command": "`gsutil`",
+          "description": "GCS 对象管理（上传、下载、删除）"
+        },
+        {
+          "name": "[AWS SAM CLI](sam.md)",
+          "command": "`sam`",
+          "description": "Serverless 应用开发与构建"
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "communication",
+      "icon": "💬",
+      "tools": [
+        {
+          "name": "[AWS SES](aws-ses.md)",
+          "command": "`aws ses`",
+          "description": "通过命令行批量发送事务性邮件"
+        },
+        {
+          "name": "[Mailchimp CLI](mailchimp.md)",
+          "command": "`mailchimp`",
+          "description": "管理邮件列表和订阅者数据"
+        },
+        {
+          "name": "[SendGrid CLI](sendgrid.md)",
+          "command": "`sendgrid`",
+          "description": "批量发送事务性邮件和营销邮件"
+        },
+        {
+          "name": "[Slack CLI](slack.md)",
+          "command": "`slack`",
+          "description": "Slack 应用开发与调试"
+        },
+        {
+          "name": "[Microsoft Teams CLI](teams.md)",
+          "command": "`teams`",
+          "description": "Teams 应用开发与调试"
+        },
+        {
+          "name": "[Telegram CLI](telegram.md)",
+          "command": "`telegram-cli`",
+          "description": "Telegram 消息自动化发送"
+        },
+        {
+          "name": "[Twilio CLI](twilio.md)",
+          "command": "`twilio`",
+          "description": "发送短信、语音通知和邮件的自动化脚本"
+        }
+      ]
+    },
+    {
+      "id": "container",
+      "name": "容器/编排",
+      "icon": "🐳",
+      "tools": [
+        {
+          "name": "[Buildah CLI](buildah.md)",
+          "command": "`buildah`",
+          "description": "OCI 镜像构建（无需 Docker 守护进程）"
+        },
+        {
+          "name": "[Docker Compose CLI](docker-compose.md)",
+          "command": "`docker compose`",
+          "description": "多容器应用编排和本地开发"
+        },
+        {
+          "name": "[Docker CLI](docker.md)",
+          "command": "`docker`",
+          "description": "容器化应用开发和部署"
+        },
+        {
+          "name": "[Helm CLI](helm.md)",
+          "command": "`helm`",
+          "description": "K8s 应用包管理"
+        },
+        {
+          "name": "[K3s](k3s.md)",
+          "command": "`k3s`",
+          "description": "轻量级 Kubernetes 部署（边缘计算、IoT）"
+        },
+        {
+          "name": "[K9s](k9s.md)",
+          "command": "`k9s`",
+          "description": "K8s 集群可视化 TUI 管理"
+        },
+        {
+          "name": "[Kaniko](kaniko.md)",
+          "command": "`kaniko`",
+          "description": "CI/CD 中无需 Docker 守护进程的镜像构建"
+        },
+        {
+          "name": "[kind](kind.md)",
+          "command": "`kind`",
+          "description": "本地 Kubernetes 集群（CI/CD 测试）"
+        },
+        {
+          "name": "[Kubernetes CLI](kubectl.md)",
+          "command": "`kubectl`",
+          "description": "K8s 集群管理和应用部署"
+        },
+        {
+          "name": "[Minikube](minikube.md)",
+          "command": "`minikube`",
+          "description": "本地 K8s 开发环境"
+        },
+        {
+          "name": "[Podman CLI](podman.md)",
+          "command": "`podman`",
+          "description": "无守护进程的容器运行（更安全）"
+        },
+        {
+          "name": "[Skopeo CLI](skopeo.md)",
+          "command": "`skopeo`",
+          "description": "容器镜像仓库操作（无需拉取完整镜像）"
+        }
+      ]
+    },
+    {
+      "id": "content-creation",
+      "name": "content-creation",
+      "icon": "✍️",
+      "tools": [
+        {
+          "name": "[Alex](alex.md)",
+          "command": "`alex`",
+          "description": "检查文章中不当/不包容用语"
+        },
+        {
+          "name": "[Astro CLI](astro.md)",
+          "command": "`astro`",
+          "description": "内容驱动网站（博客/文档）"
+        },
+        {
+          "name": "[Doctoc](doctoc.md)",
+          "command": "`doctoc`",
+          "description": "长文档自动生成目录"
+        },
+        {
+          "name": "[Docusaurus CLI](docusaurus.md)",
+          "command": "`docusaurus`",
+          "description": "开源项目文档站点"
+        },
+        {
+          "name": "[Glow](glow.md)",
+          "command": "`glow`",
+          "description": "终端渲染 Markdown 预览"
+        },
+        {
+          "name": "[Hugo CLI](hugo.md)",
+          "command": "`hugo`",
+          "description": "静态站点快速构建"
+        },
+        {
+          "name": "[Marp CLI](marp.md)",
+          "command": "`marp`",
+          "description": "Markdown 直接导出 HTML/PDF/PPT 演示文稿"
+        },
+        {
+          "name": "[MkDocs CLI](mkdocs.md)",
+          "command": "`mkdocs`",
+          "description": "Markdown 项目文档站点"
+        },
+        {
+          "name": "[Next.js CLI](nextjs.md)",
+          "command": "`next`",
+          "description": "React 全栈应用开发"
+        },
+        {
+          "name": "[Translate Shell](translate-shell.md)",
+          "command": "`trans`",
+          "description": "命令行调用 Google 翻译"
+        }
+      ]
+    },
+    {
+      "id": "data-analytics",
+      "name": "数据分析",
+      "icon": "📊",
+      "tools": [
+        {
+          "name": "[BigQuery CLI](bigquery.md)",
+          "command": "`bq`",
+          "description": "大规模数据查询和分析"
+        },
+        {
+          "name": "[Databricks CLI](databricks.md)",
+          "command": "`databricks`",
+          "description": "Databricks 工作区和集群管理"
+        },
+        {
+          "name": "[dbt CLI](dbt.md)",
+          "command": "`dbt`",
+          "description": "SQL 数据转换和建模"
+        },
+        {
+          "name": "[Apache Flink CLI](flink.md)",
+          "command": "`flink`",
+          "description": "流处理作业提交和管理"
+        },
+        {
+          "name": "[kafka](kafka.md)",
+          "command": "``",
+          "description": "消息队列 Topic 管理"
+        },
+        {
+          "name": "[Snowflake CLI](snowflake.md)",
+          "command": "`snow`",
+          "description": "Snowflake 数据仓库操作"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "数据库",
+      "icon": "🗄️",
+      "tools": [
+        {
+          "name": "[InfluxDB CLI](influxdb.md)",
+          "command": "`influx`",
+          "description": "时序数据写入和查询"
+        },
+        {
+          "name": "[MongoDB Atlas CLI](mongodb-atlas.md)",
+          "command": "`atlas`",
+          "description": "MongoDB Atlas 云集群管理"
+        },
+        {
+          "name": "[MongoDB Shell](mongodb.md)",
+          "command": "`mongosh`",
+          "description": "MongoDB 文档数据库操作"
+        },
+        {
+          "name": "[PostgreSQL CLI](postgresql.md)",
+          "command": "`psql`",
+          "description": "PostgreSQL 数据库管理"
+        },
+        {
+          "name": "[Redis CLI](redis.md)",
+          "command": "`redis-cli`",
+          "description": "Redis 缓存操作"
+        },
+        {
+          "name": "[SQLite CLI](sqlite.md)",
+          "command": "`sqlite3`",
+          "description": "轻量级本地数据库"
+        },
+        {
+          "name": "[TiDB CLI](tidb.md)",
+          "command": "`tidb`",
+          "description": "TiDB 分布式数据库集群管理"
+        }
+      ]
+    },
+    {
+      "id": "design-media",
+      "name": "设计/媒体",
+      "icon": "🎨",
+      "tools": [
+        {
+          "name": "[ExifTool](exiftool.md)",
+          "command": "`exiftool`",
+          "description": "查看、编辑和删除照片元数据"
+        },
+        {
+          "name": "[FFmpeg](ffmpeg.md)",
+          "command": "`ffmpeg`",
+          "description": "视频/音频格式转换和压缩"
+        },
+        {
+          "name": "[GraphicsMagick](graphicsmagick.md)",
+          "command": "`gm`",
+          "description": "ImageMagick 的轻量级替代方案，处理速度更快"
+        },
+        {
+          "name": "[ImageMagick](imagemagick.md)",
+          "command": "`magick`",
+          "description": "批量图片格式转换和尺寸调整"
+        },
+        {
+          "name": "[Squoosh CLI](squoosh.md)",
+          "command": "`squoosh`",
+          "description": "网页图片优化，减小文件体积提升加载速度"
+        }
+      ]
+    },
+    {
+      "id": "dev-platform",
+      "name": "开发者平台",
+      "icon": "🚀",
+      "tools": [
+        {
+          "name": "[Clever Cloud CLI](clever.md)",
+          "command": "`clever`",
+          "description": "Clever Cloud 应用部署"
+        },
+        {
+          "name": "[Firebase CLI](firebase.md)",
+          "command": "`firebase`",
+          "description": "Firebase 项目部署和管理"
+        },
+        {
+          "name": "[Heroku CLI](heroku.md)",
+          "command": "`heroku`",
+          "description": "PaaS 应用快速部署"
+        },
+        {
+          "name": "[Netlify CLI](netlify.md)",
+          "command": "`netlify`",
+          "description": "静态站点和 Serverless 函数部署"
+        },
+        {
+          "name": "[Platform.sh CLI](platform.md)",
+          "command": "`platform`",
+          "description": "Platform.sh PaaS 项目管理"
+        },
+        {
+          "name": "[Render CLI](render.md)",
+          "command": "`render`",
+          "description": "Render 平台服务管理"
+        },
+        {
+          "name": "[Vercel CLI](vercel.md)",
+          "command": "`vercel`",
+          "description": "前端项目和 Serverless 函数部署"
+        },
+        {
+          "name": "[Cloudflare Workers CLI](wrangler.md)",
+          "command": "`wrangler`",
+          "description": "Cloudflare Workers 边缘计算开发"
+        }
+      ]
+    },
+    {
+      "id": "dev-tools",
+      "name": "dev-tools",
+      "icon": "⚡",
+      "tools": [
+        {
+          "name": "[Cypress CLI](cypress.md)",
+          "command": "`cypress`",
+          "description": "Web 应用端到端测试"
+        },
+        {
+          "name": "[Jira CLI](jira.md)",
+          "command": "`jira`",
+          "description": "Jira Issue 创建与管理"
+        },
+        {
+          "name": "[Linear CLI](linear.md)",
+          "command": "`linear`",
+          "description": "Linear Issue 管理与追踪"
+        },
+        {
+          "name": "[Playwright CLI](playwright.md)",
+          "command": "`playwright`",
+          "description": "跨浏览器端到端测试"
+        },
+        {
+          "name": "[ShellSpec](shellspec.md)",
+          "command": "`shellspec`",
+          "description": "Shell脚本的BDD测试框架"
+        },
+        {
+          "name": "[Trello CLI](trello.md)",
+          "command": "`trello`",
+          "description": "Trello 看板管理"
+        }
+      ]
+    },
+    {
+      "id": "dev-utility",
+      "name": "开发者实用工具",
+      "icon": "🛠️",
+      "tools": [
+        {
+          "name": "[Bat](bat.md)",
+          "command": "`bat`",
+          "description": "带语法高亮查看代码文件"
+        },
+        {
+          "name": "[Crawley](crawley.md)",
+          "command": "`crawley`",
+          "description": "Unix 风格网页爬虫"
+        },
+        {
+          "name": "[Curlie](curlie.md)",
+          "command": "`curlie`",
+          "description": "curl 的易用封装"
+        },
+        {
+          "name": "[Dasel](dasel.md)",
+          "command": "`dasel`",
+          "description": "JSON/YAML/TOML/XML 通吃的数据处理器"
+        },
+        {
+          "name": "[fzf](fzf.md)",
+          "command": "`fzf`",
+          "description": "模糊搜索和快速导航"
+        },
+        {
+          "name": "[Grex](grex.md)",
+          "command": "`grex`",
+          "description": "给几个示例自动生成正则表达式"
+        },
+        {
+          "name": "[HTTPie](httpie.md)",
+          "command": "`http`",
+          "description": "HTTP API 调试和测试"
+        },
+        {
+          "name": "[jq](jq.md)",
+          "command": "`jq`",
+          "description": "JSON 数据处理和查询"
+        },
+        {
+          "name": "[Just](just.md)",
+          "command": "`just`",
+          "description": "现代版 Makefile"
+        },
+        {
+          "name": "[lazygit](lazygit.md)",
+          "command": "`lazygit`",
+          "description": "Git 仓库可视化 TUI 管理"
+        },
+        {
+          "name": "[Navi](navi.md)",
+          "command": "`navi`",
+          "description": "交互式命令速查表"
+        },
+        {
+          "name": "[OpenCLI-RS](opencli-rs.md)",
+          "command": "`opencli-rs`",
+          "description": "终端快速浏览 55+ 平台内容（HackerNews、Twitter/X、Reddit、Bilibili、知乎、微博、豆"
+        },
+        {
+          "name": "[ripgrep](ripgrep.md)",
+          "command": "`rg`",
+          "description": "代码内容搜索（比 grep 快）"
+        },
+        {
+          "name": "[The Fuck](thefuck.md)",
+          "command": "`fuck`",
+          "description": "自动纠正上一条打错的命令"
+        },
+        {
+          "name": "[tldr](tldr.md)",
+          "command": "`tldr`",
+          "description": "快速查命令用法"
+        },
+        {
+          "name": "[xq](xq.md)",
+          "command": "`xq`",
+          "description": "XML/HTML 解析提取"
+        },
+        {
+          "name": "[yq](yq.md)",
+          "command": "`yq`",
+          "description": "YAML/TOML/JSON 文件处理"
+        },
+        {
+          "name": "[yt-dlp](yt-dlp.md)",
+          "command": "`yt-dlp`",
+          "description": "下载 YouTube/B站等平台视频和字幕"
+        }
+      ]
+    },
+    {
+      "id": "general-tools",
+      "name": "general-tools",
+      "icon": "🔧",
+      "tools": [
+        {
+          "name": "[Fastlane](fastlane.md)",
+          "command": "`fastlane`",
+          "description": "iOS/Android 自动化构建发布"
+        },
+        {
+          "name": "[PowerShell](pwsh.md)",
+          "command": "`pwsh`",
+          "description": "跨平台自动化脚本编写"
+        },
+        {
+          "name": "[React Native CLI](react-native.md)",
+          "command": "`react-native`",
+          "description": "React Native 跨平台应用开发"
+        },
+        {
+          "name": "[VS Code CLI](vscode.md)",
+          "command": "`code`",
+          "description": "从终端快速打开编辑器"
+        },
+        {
+          "name": "[winget](winget.md)",
+          "command": "`winget`",
+          "description": "Windows 软件包管理"
+        },
+        {
+          "name": "[xcodebuild](xcodebuild.md)",
+          "command": "`xcodebuild`",
+          "description": "iOS/macOS 项目构建"
+        }
+      ]
+    },
+    {
+      "id": "hashicorp",
+      "name": "HashiCorp 套件",
+      "icon": "⛰️",
+      "tools": [
+        {
+          "name": "[Boundary CLI](boundary.md)",
+          "command": "`boundary`",
+          "description": "安全远程访问基础设施"
+        },
+        {
+          "name": "[Consul CLI](consul.md)",
+          "command": "`consul`",
+          "description": "服务发现和注册"
+        },
+        {
+          "name": "[Nomad CLI](nomad.md)",
+          "command": "`nomad`",
+          "description": "工作负载编排（容器和非容器）"
+        },
+        {
+          "name": "[Packer CLI](packer.md)",
+          "command": "`packer`",
+          "description": "多平台机器镜像自动构建"
+        },
+        {
+          "name": "[Vagrant CLI](vagrant.md)",
+          "command": "`vagrant`",
+          "description": "可复现的开发环境"
+        },
+        {
+          "name": "[Vault CLI](vault.md)",
+          "command": "`vault`",
+          "description": "密钥和凭据管理"
+        },
+        {
+          "name": "[Waypoint CLI](waypoint.md)",
+          "command": "`waypoint`",
+          "description": "应用构建-部署-发布一体化工作流"
+        }
+      ]
+    },
+    {
+      "id": "iac",
+      "name": "基础设施即代码",
+      "icon": "🏗️",
+      "tools": [
+        {
+          "name": "[Ansible CLI](ansible.md)",
+          "command": "`ansible`",
+          "description": "批量服务器配置管理"
+        },
+        {
+          "name": "[AWS CDK CLI](aws-cdk.md)",
+          "command": "`cdk`",
+          "description": "用代码定义 AWS 基础设施"
+        },
+        {
+          "name": "[CloudFormation CLI](cloudformation.md)",
+          "command": "`cloudformation`",
+          "description": "AWS 基础设施模板化管理"
+        },
+        {
+          "name": "[Crossplane CLI](crossplane.md)",
+          "command": "`crossplane`",
+          "description": "Kubernetes 原生基础设施编排"
+        },
+        {
+          "name": "[Pulumi CLI](pulumi.md)",
+          "command": "`pulumi`",
+          "description": "用 TypeScript/Python/Go 等通用语言管理基础设施"
+        },
+        {
+          "name": "[Terraform CLI](terraform.md)",
+          "command": "`terraform`",
+          "description": "多云基础设施即代码管理"
+        },
+        {
+          "name": "[OpenTofu CLI](tofu.md)",
+          "command": "`tofu`",
+          "description": "Terraform 的开源替代方案（Linux 基金会托管）"
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "监控/可观测",
+      "icon": "📡",
+      "tools": [
+        {
+          "name": "[Better Stack CLI](betterstack.md)",
+          "command": "`betterstack`",
+          "description": "管理 Better Stack Uptime 监控和 Heartbeat"
+        },
+        {
+          "name": "[Grafana CLI](grafana.md)",
+          "command": "`grafanactl`",
+          "description": "管理 Grafana 插件的安装、更新和卸载"
+        },
+        {
+          "name": "[Loki CLI](loki.md)",
+          "command": "`logcli`",
+          "description": "在终端中快速查询和过滤 Loki 日志，无需打开 Grafana"
+        },
+        {
+          "name": "[Prometheus CLI](prometheus.md)",
+          "command": "`promtool`",
+          "description": "CI/CD 中自动校验 Prometheus 配置和规则文件的正确性"
+        },
+        {
+          "name": "[Sentry CLI](sentry.md)",
+          "command": "`sentry-cli`",
+          "description": "CI/CD 中自动上传 Debug Symbols 和 Source Maps"
+        }
+      ]
+    },
+    {
+      "id": "package-manager",
+      "name": "包管理器/运行时",
+      "icon": "📦",
+      "tools": [
+        {
+          "name": "[Homebrew](brew.md)",
+          "command": "`brew`",
+          "description": "macOS 上安装和管理开发工具和系统软件"
+        },
+        {
+          "name": "[Cargo](cargo.md)",
+          "command": "`cargo`",
+          "description": "Rust 项目的构建、测试和发布全生命周期管理"
+        },
+        {
+          "name": "[Composer](composer.md)",
+          "command": "`composer`",
+          "description": "PHP 项目依赖管理和自动加载"
+        },
+        {
+          "name": "[conda](conda.md)",
+          "command": "`conda`",
+          "description": "数据科学和机器学习环境管理"
+        },
+        {
+          "name": "[.NET CLI](dotnet.md)",
+          "command": "`dotnet`",
+          "description": ".NET/C#/F# 项目的创建、构建和发布"
+        },
+        {
+          "name": "[gem](gem.md)",
+          "command": "`gem`",
+          "description": "Ruby 包（Gem）的安装和管理"
+        },
+        {
+          "name": "[Go](go.md)",
+          "command": "`go`",
+          "description": "Go 项目的模块管理和依赖控制"
+        },
+        {
+          "name": "[Gradle](gradle.md)",
+          "command": "`gradle`",
+          "description": "Java/Kotlin/Android 项目的构建和依赖管理"
+        },
+        {
+          "name": "[Maven](maven.md)",
+          "command": "`mvn`",
+          "description": "Java 项目的标准化构建和依赖管理"
+        },
+        {
+          "name": "[Node.js](node.md)",
+          "command": "`node`",
+          "description": "服务端 JavaScript/TypeScript 应用运行时"
+        },
+        {
+          "name": "[NuGet CLI](nuget.md)",
+          "command": "`nuget`",
+          "description": ".NET 包的创建、发布和管理"
+        },
+        {
+          "name": "[pip](pip.md)",
+          "command": "`pip`",
+          "description": "Python 项目依赖管理和虚拟环境配置"
+        },
+        {
+          "name": "[pnpm](pnpm.md)",
+          "command": "`pnpm`",
+          "description": "节省磁盘空间的高效包管理（内容寻址存储）"
+        },
+        {
+          "name": "[Poetry](poetry.md)",
+          "command": "`poetry`",
+          "description": "现代化的 Python 项目依赖管理（替代 pip + venv）"
+        },
+        {
+          "name": "[uv](uv.md)",
+          "command": "`uv`",
+          "description": "极速 Python 包安装和管理（Rust 编写，比 pip 快 10-100 倍）"
+        },
+        {
+          "name": "[Yarn](yarn.md)",
+          "command": "`yarn`",
+          "description": "大型 Node.js 项目的快速依赖安装（Plug'n'Play）"
+        }
+      ]
+    },
+    {
+      "id": "payment",
+      "name": "支付/电商",
+      "icon": "💳",
+      "tools": [
+        {
+          "name": "[Braintree CLI](braintree.md)",
+          "command": "`braintree`",
+          "description": "集成 PayPal 旗下 Braintree 支付网关"
+        },
+        {
+          "name": "[PayPal CLI](paypal.md)",
+          "command": "`paypal`",
+          "description": "电商平台集成 PayPal 支付流程"
+        },
+        {
+          "name": "[Shopify CLI](shopify.md)",
+          "command": "`shopify`",
+          "description": "开发和调试 Shopify 应用与主题"
+        },
+        {
+          "name": "[Stripe CLI](stripe.md)",
+          "command": "`stripe`",
+          "description": "本地开发调试 Stripe Webhook，无需暴露公网端口"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "安全/密钥",
+      "icon": "🔒",
+      "tools": [
+        {
+          "name": "[1Password CLI](1password.md)",
+          "command": "`op`",
+          "description": "CI/CD 流水线中安全注入密钥和环境变量"
+        },
+        {
+          "name": "[Auth0 CLI](auth0.md)",
+          "command": "`auth0`",
+          "description": "管理 Auth0 租户中的 Applications、APIs、Users 和 Rules"
+        },
+        {
+          "name": "[Bitwarden CLI](bitwarden.md)",
+          "command": "`bw`",
+          "description": "在 CI/CD 和脚本中安全获取密钥、密码和令牌"
+        },
+        {
+          "name": "[Cloudflare Access CLI](cloudflared.md)",
+          "command": "`cloudflared`",
+          "description": "创建 Cloudflare Tunnel 安全暴露内网服务，无需开放公网端口"
+        },
+        {
+          "name": "[Doppler CLI](doppler.md)",
+          "command": "`doppler`",
+          "description": "跨环境（dev/staging/prod）统一管理应用密钥和环境变量"
+        },
+        {
+          "name": "[Infisical CLI](infisical.md)",
+          "command": "`infisical`",
+          "description": "管理和同步项目级密钥，支持多环境切换"
+        },
+        {
+          "name": "[Keycloak CLI](keycloak.md)",
+          "command": "`kcadm`",
+          "description": "自动化管理 Keycloak Realm、Users、Roles 和 Clients"
+        },
+        {
+          "name": "[Okta CLI](okta.md)",
+          "command": "`okta`",
+          "description": "快速创建和配置 Okta 应用集成（SAML/OIDC）"
+        },
+        {
+          "name": "[SSLyze CLI](sslyze.md)",
+          "command": "`sslyze`",
+          "description": "安全审计和合规检查，评估服务器 SSL/TLS 配置强度"
+        },
+        {
+          "name": "[Vault CLI](vault.md)",
+          "command": "`vault`",
+          "description": "管理应用密钥、数据库凭证和 TLS 证书的生命周期"
+        }
+      ]
+    },
+    {
+      "id": "version-control",
+      "name": "版本控制",
+      "icon": "📚",
+      "tools": [
+        {
+          "name": "[Bitbucket CLI](bitbucket.md)",
+          "command": "`bitbucket`",
+          "description": "Bitbucket 仓库管理"
+        },
+        {
+          "name": "[GitHub Codespaces CLI](codespaces.md)",
+          "command": "`gh cs`",
+          "description": "远程开发环境的创建和管理"
+        },
+        {
+          "name": "[Git](git.md)",
+          "command": "`git`",
+          "description": "源代码版本控制与团队协作"
+        },
+        {
+          "name": "[GitHub CLI](github.md)",
+          "command": "`gh`",
+          "description": "在终端管理 PR/Issue，无需打开浏览器"
+        },
+        {
+          "name": "[GitLab CLI](gitlab.md)",
+          "command": "`glab`",
+          "description": "GitLab MR 管理与代码审查"
+        }
+      ]
+    }
+  ]
+}
