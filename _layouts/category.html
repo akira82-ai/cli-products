@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<style>
+  .category-header {
+    margin-bottom: 2rem;
+  }
+
+  .category-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+  }
+
+  .tool-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .tool-list {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+  }
+</style>
+
+<div class="category-header">
+  <div class="category-meta">
+    <div class="meta-item">
+      <span>{{ page.category_icon | default: '📁' }}</span>
+      <span>{{ page.category | default: page.title }}</span>
+    </div>
+  </div>
+  {% if page.description %}
+    <p class="category-description">{{ page.description }}</p>
+  {% endif %}
+</div>
+
+<div class="content">
+  {{ content }}
+</div>

@@ -1,0 +1,236 @@
+---
+layout: default
+---
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>{{ site.title }}</h1>
+    <p class="hero-subtitle">{{ site.description }}</p>
+
+    <!-- 统计数据 -->
+    <div class="stats-container">
+      <div class="stat-card">
+        <span class="stat-number">170+</span>
+        <span class="stat-label">CLI 工具</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">20</span>
+        <span class="stat-label">分类</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">开源友好</span>
+      </div>
+    </div>
+
+    <!-- 搜索框 -->
+    <div class="search-container">
+      <input
+        type="text"
+        class="search-input"
+        placeholder="搜索你需要的 CLI 工具..."
+        aria-label="搜索 CLI 工具"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .search-input {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    padding: 1rem 1.5rem;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1);
+  }
+
+  .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+</style>
+
+<!-- 主内容 -->
+<div class="content">
+  {{ content }}
+</div>
+
+<!-- 分类展示 -->
+<section class="categories-section">
+  <h2 style="text-align: center; margin-bottom: 2rem; font-size: 2rem;">按分类浏览</h2>
+
+  <div class="category-grid">
+    <!-- 开发者实用工具 -->
+    <a href="/dev-utility/" class="category-card">
+      <div class="category-icon">🛠️</div>
+      <h3>开发者实用工具</h3>
+      <span class="category-count">18 个工具</span>
+    </a>
+
+    <!-- 包管理器/运行时 -->
+    <a href="/package-manager/" class="category-card">
+      <div class="category-icon">📦</div>
+      <h3>包管理器/运行时</h3>
+      <span class="category-count">16 个工具</span>
+    </a>
+
+    <!-- AI 工具 -->
+    <a href="/ai-tools/" class="category-card">
+      <div class="category-icon">🤖</div>
+      <h3>AI 工具</h3>
+      <span class="category-count">14 个工具</span>
+    </a>
+
+    <!-- 容器/编排 -->
+    <a href="/container/" class="category-card">
+      <div class="category-icon">🐳</div>
+      <h3>容器/编排</h3>
+      <span class="category-count">12 个工具</span>
+    </a>
+
+    <!-- 内容创建 -->
+    <a href="/content-creation/" class="category-card">
+      <div class="category-icon">✍️</div>
+      <h3>内容创建</h3>
+      <span class="category-count">10 个工具</span>
+    </a>
+
+    <!-- 安全/密钥 -->
+    <a href="/security/" class="category-card">
+      <div class="category-icon">🔒</div>
+      <h3>安全/密钥</h3>
+      <span class="category-count">10 个工具</span>
+    </a>
+
+    <!-- CI/CD -->
+    <a href="/cicd/" class="category-card">
+      <div class="category-icon">🔄</div>
+      <h3>CI/CD</h3>
+      <span class="category-count">10 个工具</span>
+    </a>
+
+    <!-- 开发者平台 -->
+    <a href="/dev-platform/" class="category-card">
+      <div class="category-icon">🚀</div>
+      <h3>开发者平台</h3>
+      <span class="category-count">8 个工具</span>
+    </a>
+
+    <!-- 数据库 -->
+    <a href="/database/" class="category-card">
+      <div class="category-icon">🗄️</div>
+      <h3>数据库</h3>
+      <span class="category-count">7 个工具</span>
+    </a>
+
+    <!-- HashiCorp 套件 -->
+    <a href="/hashicorp/" class="category-card">
+      <div class="category-icon">⛰️</div>
+      <h3>HashiCorp 套件</h3>
+      <span class="category-count">7 个工具</span>
+    </a>
+
+    <!-- 基础设施即代码 -->
+    <a href="/iac/" class="category-card">
+      <div class="category-icon">🏗️</div>
+      <h3>基础设施即代码</h3>
+      <span class="category-count">7 个工具</span>
+    </a>
+
+    <!-- 云服务商 -->
+    <a href="/cloud/" class="category-card">
+      <div class="category-icon">☁️</div>
+      <h3>云服务商</h3>
+      <span class="category-count">7 个工具</span>
+    </a>
+
+    <!-- 通讯工具 -->
+    <a href="/communication/" class="category-card">
+      <div class="category-icon">💬</div>
+      <h3>通讯工具</h3>
+      <span class="category-count">7 个工具</span>
+    </a>
+
+    <!-- 数据分析 -->
+    <a href="/data-analytics/" class="category-card">
+      <div class="category-icon">📊</div>
+      <h3>数据分析</h3>
+      <span class="category-count">6 个工具</span>
+    </a>
+
+    <!-- 通用工具 -->
+    <a href="/general-tools/" class="category-card">
+      <div class="category-icon">🔧</div>
+      <h3>通用工具</h3>
+      <span class="category-count">6 个工具</span>
+    </a>
+
+    <!-- 开发工具 -->
+    <a href="/dev-tools/" class="category-card">
+      <div class="category-icon">⚡</div>
+      <h3>开发工具</h3>
+      <span class="category-count">6 个工具</span>
+    </a>
+
+    <!-- 版本控制 -->
+    <a href="/version-control/" class="category-card">
+      <div class="category-icon">📚</div>
+      <h3>版本控制</h3>
+      <span class="category-count">5 个工具</span>
+    </a>
+
+    <!-- 设计/媒体 -->
+    <a href="/design-media/" class="category-card">
+      <div class="category-icon">🎨</div>
+      <h3>设计/媒体</h3>
+      <span class="category-count">5 个工具</span>
+    </a>
+
+    <!-- 监控/可观测 -->
+    <a href="/monitoring/" class="category-card">
+      <div class="category-icon">📡</div>
+      <h3>监控/可观测</h3>
+      <span class="category-count">5 个工具</span>
+    </a>
+
+    <!-- 支付/电商 -->
+    <a href="/payment/" class="category-card">
+      <div class="category-icon">💳</div>
+      <h3>支付/电商</h3>
+      <span class="category-count">4 个工具</span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .categories-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .category-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

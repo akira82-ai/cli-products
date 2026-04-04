@@ -1,0 +1,269 @@
+# CLI Products Collection - Jekyll Configuration
+# 站点信息
+title: CLI Products Collection
+description: 全面收集国内外提供 CLI 能力的产品工具，涵盖 20 个分类、170+ 个工具
+author: akira82-ai
+repository: akira82-ai/cli-products
+
+# 主题配置
+theme: just-the-docs
+url: https://akira82-ai.github.io
+baseurl: /cli-products
+
+# 搜索配置
+search_enabled: true
+search_heading_level: 2
+search_rel_url: false
+search_button_text: "搜索..."
+search_placeholder: "搜索 CLI 工具..."
+search_results_label: "搜索结果"
+search_no_results_text: "未找到相关内容"
+
+# 辅助功能
+heading_anchors: true
+permalink: pretty
+logo: "/assets/images/logo.svg"
+
+# 导航配置（20个分类）
+nav:
+  - title: 首页
+    url: /
+  - title: 开发者实用工具
+    url: /dev-utility/
+    children:
+      - title: 工具列表
+        url: /dev-utility/
+  - title: 包管理器/运行时
+    url: /package-manager/
+  - title: AI 工具
+    url: /ai-tools/
+  - title: 容器/编排
+    url: /container/
+  - title: 内容创建
+    url: /content-creation/
+  - title: 安全/密钥
+    url: /security/
+  - title: CI/CD
+    url: /cicd/
+  - title: 开发者平台
+    url: /dev-platform/
+  - title: 数据库
+    url: /database/
+  - title: HashiCorp 套件
+    url: /hashicorp/
+  - title: 基础设施即代码
+    url: /iac/
+  - title: 云服务商
+    url: /cloud/
+  - title: 通讯工具
+    url: /communication/
+  - title: 数据分析
+    url: /data-analytics/
+  - title: 通用工具
+    url: /general-tools/
+  - title: 开发工具
+    url: /dev-tools/
+  - title: 版本控制
+    url: /version-control/
+  - title: 设计/媒体
+    url: /design-media/
+  - title: 监控/可观测
+    url: /monitoring/
+  - title: 支付/电商
+    url: /payment/
+
+# 侧边栏配置
+aux_links:
+  "GitHub 仓库":
+    - "//github.com/akira82-ai/cli-products"
+
+aux_links_new_tab: true
+
+# 深色模式配置
+color_scheme: nil
+enable_copy_code_button: true
+heading_level: 2
+
+# Google Fonts
+fonts:
+  - name: "Inter"
+    family: "Inter"
+    style: normal
+    weight: 400 600 700
+  - name: "JetBrains Mono"
+    family: "JetBrains Mono"
+    style: normal
+    weight: 400 500
+
+# 插件
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# 排除文件
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - "*.py"
+  - "*.pyc"
+  - template.md
+  - contributing.md
+  - LICENSE
+
+# Markdown 配置
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: bash
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Front Matter 默认值
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "dev-utility"
+    values:
+      layout: "category"
+      category: "开发者实用工具"
+      category_icon: "🛠️"
+  - scope:
+      path: "package-manager"
+    values:
+      layout: "category"
+      category: "包管理器/运行时"
+      category_icon: "📦"
+  - scope:
+      path: "ai-tools"
+    values:
+      layout: "category"
+      category: "AI 工具"
+      category_icon: "🤖"
+  - scope:
+      path: "container"
+    values:
+      layout: "category"
+      category: "容器/编排"
+      category_icon: "🐳"
+  - scope:
+      path: "content-creation"
+    values:
+      layout: "category"
+      category: "内容创建"
+      category_icon: "✍️"
+  - scope:
+      path: "security"
+    values:
+      layout: "category"
+      category: "安全/密钥"
+      category_icon: "🔒"
+  - scope:
+      path: "cicd"
+    values:
+      layout: "category"
+      category: "CI/CD"
+      category_icon: "🔄"
+  - scope:
+      path: "dev-platform"
+    values:
+      layout: "category"
+      category: "开发者平台"
+      category_icon: "🚀"
+  - scope:
+      path: "database"
+    values:
+      layout: "category"
+      category: "数据库"
+      category_icon: "🗄️"
+  - scope:
+      path: "hashicorp"
+    values:
+      layout: "category"
+      category: "HashiCorp 套件"
+      category_icon: "⛰️"
+  - scope:
+      path: "iac"
+    values:
+      layout: "category"
+      category: "基础设施即代码"
+      category_icon: "🏗️"
+  - scope:
+      path: "cloud"
+    values:
+      layout: "category"
+      category: "云服务商"
+      category_icon: "☁️"
+  - scope:
+      path: "communication"
+    values:
+      layout: "category"
+      category: "通讯工具"
+      category_icon: "💬"
+  - scope:
+      path: "data-analytics"
+    values:
+      layout: "category"
+      category: "数据分析"
+      category_icon: "📊"
+  - scope:
+      path: "general-tools"
+    values:
+      layout: "category"
+      category: "通用工具"
+      category_icon: "🔧"
+  - scope:
+      path: "dev-tools"
+    values:
+      layout: "category"
+      category: "开发工具"
+      category_icon: "⚡"
+  - scope:
+      path: "version-control"
+    values:
+      layout: "category"
+      category: "版本控制"
+      category_icon: "📚"
+  - scope:
+      path: "design-media"
+    values:
+      layout: "category"
+      category: "设计/媒体"
+      category_icon: "🎨"
+  - scope:
+      path: "monitoring"
+    values:
+      layout: "category"
+      category: "监控/可观测"
+      category_icon: "📡"
+  - scope:
+      path: "payment"
+    values:
+      layout: "category"
+      category: "支付/电商"
+      category_icon: "💳"
+
+# 压缩
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false

@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="footer-content">
+    {% if include.links %}
+      <div class="footer-links">
+        {% for link in include.links %}
+          <a href="{{ link.url }}" class="footer-link" {% if link.external %}target="_blank" rel="noopener"{% endif %}>
+            {{ link.title }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <p class="footer-copyright">
+      &copy; {{ 'now' | date: '%Y' }} {{ site.author }}. Released under the MIT License.
+    </p>
+  </div>
+</footer>

@@ -1,0 +1,15 @@
+{% assign hero_title = include.title | default: site.title %}
+{% assign hero_subtitle = include.subtitle | default: site.description %}
+{% assign hero_gradient = include.gradient | default: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #ec4899 100%)' %}
+
+<section class="hero" style="background: {{ hero_gradient }};">
+  <div class="hero-content">
+    <h1>{{ hero_title }}</h1>
+    <p class="hero-subtitle">{{ hero_subtitle }}</p>
+    {% if include.content %}
+      <div class="hero-extra">
+        {{ include.content }}
+      </div>
+    {% endif %}
+  </div>
+</section>

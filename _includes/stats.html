@@ -1,0 +1,8 @@
+<div class="stats-container">
+  {% for stat in include.stats %}
+    <div class="stat-card">
+      <span class="stat-number">{{ stat.number }}</span>
+      <span class="stat-label">{{ stat.label }}</span>
+    </div>
+  {% endfor %}
+</div>
