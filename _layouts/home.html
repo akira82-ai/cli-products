@@ -304,23 +304,15 @@
     }
 
     .doc-link-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 32px;
-      height: 32px;
-      background: var(--gradient-primary);
-      color: white;
-      border-radius: var(--radius-md);
+      color: var(--text-tertiary);
       text-decoration: none;
-      font-size: 1rem;
-      transition: all 0.2s;
-      flex-shrink: 0;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+      white-space: nowrap;
     }
 
     .doc-link-btn:hover {
-      transform: scale(1.1);
-      box-shadow: var(--shadow-md);
+      color: var(--primary);
     }
 
     /* Category Grid */
@@ -656,7 +648,7 @@
                       <code class="result-tool-command">${tool.command}</code>
                       <div class="result-tool-desc">${tool.description}</div>
                     </div>
-                    ${tool.official_url ? `<a href="${tool.official_url}" target="_blank" rel="noopener noreferrer" class="doc-link-btn" title="官方文档">🔗</a>` : ''}
+                    ${tool.official_url ? `<a href="${tool.official_url}" target="_blank" rel="noopener noreferrer" class="doc-link-btn">官方文档</a>` : ''}
                   </div>
                 </div>
               `).join('')}
