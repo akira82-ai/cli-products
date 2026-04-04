@@ -383,7 +383,7 @@
       </div>
 
       <div class="search-container">
-        <input type="text" class="search-input" placeholder="搜索你需要的 CLI 工具...">
+        <input type="text" class="search-input" id="searchInput" placeholder="搜索分类..." autocomplete="off">
       </div>
     </div>
   </section>
@@ -546,6 +546,74 @@
     function updateThemeButton(theme) {
       themeToggle.textContent = theme === 'dark' ? '☀️ 浅色' : '🌙 深色';
     }
+
+    // 搜索功能
+    const searchInput = document.getElementById('searchInput');
+    const categoryCards = document.querySelectorAll('.category-card');
+    const sectionTitle = document.querySelector('.section-title');
+    let noResultsMessage = null;
+
+    searchInput.addEventListener('input', function() {
+      const searchTerm = this.value.toLowerCase().trim();
+      let visibleCount = 0;
+
+      categoryCards.forEach(card => {
+        const title = card.querySelector('h3').textContent.toLowerCase();
+        const keywords = card.dataset.keywords || '';
+
+        if (title.includes(searchTerm) || keywords.includes(searchTerm)) {
+          card.style.display = 'block';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // 显示/隐藏"没有找到结果"消息
+      if (visibleCount === 0 && searchTerm !== '') {
+        if (!noResultsMessage) {
+          noResultsMessage = document.createElement('p');
+          noResultsMessage.className = 'no-results';
+          noResultsMessage.textContent = '没有找到匹配的分类';
+          noResultsMessage.style.cssText = 'text-align: center; color: var(--text-tertiary); padding: 2rem;';
+          sectionTitle.after(noResultsMessage);
+        }
+        noResultsMessage.style.display = 'block';
+      } else if (noResultsMessage) {
+        noResultsMessage.style.display = 'none';
+      }
+    });
+
+    // 为每个分类卡片添加搜索关键词
+    const keywordsMap = {
+      '开发者实用工具': 'dev utility 工具 开发 效率',
+      '包管理器/运行时': 'package manager runtime npm yarn pnpm',
+      'AI 工具': 'ai artificial intelligence 人工智能 llm gpt',
+      '容器/编排': 'container docker kubernetes k8s 容器 编排',
+      '内容创建': 'content creation 内容 写作 markdown 文档',
+      '安全/密钥': 'security key 安全 密钥 encryption',
+      'CI/CD': 'cicd ci cd continuous integration deployment',
+      '开发者平台': 'dev platform platform 开发平台',
+      '数据库': 'database db sql nosql mysql postgres mongodb',
+      'HashiCorp 套件': 'hashicorp terraform vault consul',
+      '基础设施即代码': 'iac infrastructure as code 基础设施',
+      '云服务商': 'cloud aws azure gcp 阿里云 腾讯云',
+      '通讯工具': 'communication slack discord telegram 钉钉',
+      '数据分析': 'data analytics 分析 数据',
+      '通用工具': 'general tools 通用',
+      '开发工具': 'dev tools 开发工具',
+      '版本控制': 'version control git 版本',
+      '设计/媒体': 'design media 设计 媒体 image video',
+      '监控/可观测': 'monitoring observability 监控 日志',
+      '支付/电商': 'payment ecommerce 支付 电商'
+    };
+
+    categoryCards.forEach(card => {
+      const title = card.querySelector('h3').textContent;
+      if (keywordsMap[title]) {
+        card.dataset.keywords = keywordsMap[title];
+      }
+    });
   </script>
 </body>
 </html>
