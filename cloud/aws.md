@@ -1,7 +1,7 @@
 # AWS CLI (`aws`)
 
 ## 基本信息
-- 官方文档：https://docs.aws.amazon.com/cli/
+- 官方文档：https://docs.aws.amazon.com/cli/latest/userguide/
 - 安装方式：`pip install awscli` / `brew install awscli`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

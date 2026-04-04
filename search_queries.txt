@@ -1,0 +1,89 @@
+Claude Code CLI|Claude Code CLI CLI documentation official site
+Cline CLI|Cline CLI CLI documentation official site
+Qwen Code CLI|Qwen Code CLI CLI documentation official site
+百度千帆 CLI|百度千帆 CLI CLI documentation official site
+通义千问 CLI|通义千问 CLI CLI documentation official site
+LM Studio CLI|LM Studio CLI CLI documentation official site
+Replicate CLI|Replicate CLI CLI documentation official site
+React Native CLI|React Native CLI CLI documentation official site
+simctl|simctl CLI documentation official site
+VS Code CLI|VS Code CLI CLI documentation official site
+xcodebuild|xcodebuild CLI documentation official site
+Akamai CLI|Akamai CLI CLI documentation official site
+Fastly CLI|Fastly CLI CLI documentation official site
+ArgoCD CLI|ArgoCD CLI CLI documentation official site
+Bunny CLI|Bunny CLI CLI documentation official site
+Octopus Deploy CLI|Octopus Deploy CLI CLI documentation official site
+阿里云 CLI|阿里云 CLI CLI documentation official site
+AWS CLI|AWS CLI CLI documentation official site
+AWS CDK CLI|AWS CDK CLI CLI documentation official site
+AWS EB CLI|AWS EB CLI CLI documentation official site
+EKS CLI|EKS CLI CLI documentation official site
+AWS SAM CLI|AWS SAM CLI CLI documentation official site
+腾讯云 CLI|腾讯云 CLI CLI documentation official site
+Buildah CLI|Buildah CLI CLI documentation official site
+K9s|K9s CLI documentation official site
+Helm CLI|Helm CLI CLI documentation official site
+Podman CLI|Podman CLI CLI documentation official site
+Apache Airflow CLI|Apache Airflow CLI CLI documentation official site
+Minikube|Minikube CLI documentation official site
+Snowflake CLI|Snowflake CLI CLI documentation official site
+Apache Spark CLI|Apache Spark CLI CLI documentation official site
+CockroachDB CLI|CockroachDB CLI CLI documentation official site
+Cassandra CLI|Cassandra CLI CLI documentation official site
+MySQL CLI|MySQL CLI CLI documentation official site
+etcd CLI|etcd CLI CLI documentation official site
+Neo4j CLI|Neo4j CLI CLI documentation official site
+Redis CLI|Redis CLI CLI documentation official site
+Canva CLI|Canva CLI CLI documentation official site
+FFmpeg|FFmpeg CLI documentation official site
+Figma CLI|Figma CLI CLI documentation official site
+Sharp CLI|Sharp CLI CLI documentation official site
+Specify CLI|Specify CLI CLI documentation official site
+ExifTool|ExifTool CLI documentation official site
+Fly.io CLI|Fly.io CLI CLI documentation official site
+Railway CLI|Railway CLI CLI documentation official site
+Supabase CLI|Supabase CLI CLI documentation official site
+Platform.sh CLI|Platform.sh CLI CLI documentation official site
+jq|jq CLI documentation official site
+The Fuck|The Fuck CLI documentation official site
+xq|xq CLI documentation official site
+yq|yq CLI documentation official site
+rclone|rclone CLI documentation official site
+Mailchimp CLI|Mailchimp CLI CLI documentation official site
+Postmark CLI|Postmark CLI CLI documentation official site
+Resend CLI|Resend CLI CLI documentation official site
+SendGrid CLI|SendGrid CLI CLI documentation official site
+AWS CDK CLI|AWS CDK CLI CLI documentation official site
+Crossplane CLI|Crossplane CLI CLI documentation official site
+飞书 CLI|飞书 CLI CLI documentation official site
+钉钉 CLI|钉钉 CLI CLI documentation official site
+Discord CLI|Discord CLI CLI documentation official site
+Zoom CLI|Zoom CLI CLI documentation official site
+Telegram CLI|Telegram CLI CLI documentation official site
+Better Stack CLI|Better Stack CLI CLI documentation official site
+Datadog CLI|Datadog CLI CLI documentation official site
+Datadog Agent CLI|Datadog Agent CLI CLI documentation official site
+Jaeger CLI|Jaeger CLI CLI documentation official site
+New Relic CLI|New Relic CLI CLI documentation official site
+OpenTelemetry CLI|OpenTelemetry CLI CLI documentation official site
+PagerDuty CLI|PagerDuty CLI CLI documentation official site
+Sentry CLI|Sentry CLI CLI documentation official site
+Bun|Bun CLI documentation official site
+gem|gem CLI documentation official site
+Deno|Deno CLI documentation official site
+uv|uv CLI documentation official site
+Yarn|Yarn CLI documentation official site
+Square CLI|Square CLI CLI documentation official site
+Shopify CLI|Shopify CLI CLI documentation official site
+PayPal CLI|PayPal CLI CLI documentation official site
+Asana CLI|Asana CLI CLI documentation official site
+Linear CLI|Linear CLI CLI documentation official site
+Trello CLI|Trello CLI CLI documentation official site
+Let's Encrypt CLI|Let's Encrypt CLI CLI documentation official site
+Keycloak CLI|Keycloak CLI CLI documentation official site
+smart_verification_report|smart_verification_report CLI documentation official site
+Astro CLI|Astro CLI CLI documentation official site
+Playwright CLI|Playwright CLI CLI documentation official site
+url_verification_report|url_verification_report CLI documentation official site
+Git|Git CLI documentation official site

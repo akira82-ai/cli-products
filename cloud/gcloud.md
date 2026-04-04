@@ -1,7 +1,7 @@
 # Google Cloud CLI (`gcloud`)
 
 ## 基本信息
-- 官方文档：https://cloud.google.com/sdk/docs
+- 官方文档：https://cloud.google.com/sdk/docs/install
 - 安装方式：`brew install google-cloud-sdk`
 - 开源：否
 - 平台支持：macOS / Linux / Windows

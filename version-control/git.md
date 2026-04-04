@@ -1,7 +1,7 @@
 # Git (`git`)
 
 ## 基本信息
-- 官方文档：https://git-scm.com/doc
+- 官方文档：https://git-scm.com/docs/git
 - 安装方式：brew install git / apt install git
 - 开源：是 (GPL-2.0)
 - 平台支持：macOS / Linux / Windows

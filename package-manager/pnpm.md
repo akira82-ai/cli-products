@@ -1,7 +1,7 @@
 # pnpm (`pnpm`)
 
 ## 基本信息
-- 官方文档：https://pnpm.io/
+- 官方文档：https://pnpm.io/cli/add
 - 安装方式：`npm install -g pnpm` 或 `brew install pnpm`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

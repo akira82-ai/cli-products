@@ -1,7 +1,7 @@
 # Snowflake CLI (`snow`)
 
 ## 基本信息
-- 官方文档：https://docs.snowflake.com/en/user-guide/snowcli
+- 官方文档：https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview
 - 安装方式：pip install snowflake-cli
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

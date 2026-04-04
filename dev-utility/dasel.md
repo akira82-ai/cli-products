@@ -1,7 +1,7 @@
 # Dasel (`dasel`)
 
 ## 基本信息
-- 官方文档：https://github.com/TomWright/dasel
+- 官方文档：https://github.com/tomwright/dasel
 - 安装方式：brew install dasel
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

@@ -1,7 +1,7 @@
 # AWS EB CLI (`eb`)
 
 ## 基本信息
-- 官方文档：https://docs.aws.amazon.com/elasticbeanstalk/
+- 官方文档：https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb3.html
 - 安装方式：`pip install awsebcli`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

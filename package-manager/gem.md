@@ -1,7 +1,7 @@
 # gem (`gem`) - Ruby
 
 ## 基本信息
-- 官方文档：https://guides.rubygems.org/
+- 官方文档：https://guides.rubygems.org/command-reference/
 - 安装方式：随 Ruby 安装（`brew install ruby`）
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

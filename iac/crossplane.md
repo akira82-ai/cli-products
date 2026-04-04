@@ -1,7 +1,7 @@
 # Crossplane CLI (`crossplane`)
 
 ## 基本信息
-- 官方文档：https://docs.crossplane.io/
+- 官方文档：https://docs.crossplane.io/latest/cli.html
 - 安装方式：brew install crossplane
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux

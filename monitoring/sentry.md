@@ -1,7 +1,7 @@
 # Sentry CLI (`sentry-cli`)
 
 ## 基本信息
-- 官方文档：https://docs.sentry.io/product/cli
+- 官方文档：https://docs.sentry.io/cli/
 - 安装方式：`brew tap getsentry/tools && brew install sentry-cli`
 - 开源：是 (BSD-3-Clause)
 - 平台支持：macOS / Linux / Windows

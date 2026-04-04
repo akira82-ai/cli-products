@@ -1,7 +1,7 @@
 # Redis CLI (`redis-cli`)
 
 ## 基本信息
-- 官方文档：https://redis.io/docs/ui/cli/
+- 官方文档：https://redis.io/docs/latest/develop/tools/cli/
 - 安装方式：brew install redis
 - 开源：是 (BSD-3-Clause)
 - 平台支持：macOS / Linux / Windows

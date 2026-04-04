@@ -1,7 +1,7 @@
 # ArgoCD CLI (`argocd`)
 
 ## 基本信息
-- 官方文档：https://argo-cd.readthedocs.io/en/stable/user-guide/commands/
+- 官方文档：https://argo-cd.readthedocs.io/en/latest/user-guide/commands/argocd/
 - 安装方式：`brew install argocd`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

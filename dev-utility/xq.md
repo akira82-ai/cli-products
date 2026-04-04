@@ -1,7 +1,7 @@
 # xq (`xq`)
 
 ## 基本信息
-- 官方文档：https://github.com/kislyuk/yq
+- 官方文档：https://github.com/sibprogrammer/xq
 - 安装方式：brew install yq 或 pip install yq
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

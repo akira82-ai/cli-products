@@ -1,0 +1,3108 @@
+{
+  "timestamp": "2026-04-04T13:10:40.270227",
+  "total": 220,
+  "valid": 133,
+  "suspicious": 37,
+  "invalid": 49,
+  "errors": 1,
+  "results": [
+    {
+      "product": "Claude Code CLI",
+      "url": "https://code.claude.com/docs/en/overview",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 23.3%)",
+      "confidence": 0.2333333333333333,
+      "page_title": "Claude Code overview - Claude Code Docs",
+      "reasons": [
+        "标题包含产品关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/claude-code.md"
+    },
+    {
+      "product": "Aider",
+      "url": "https://aider.chat/docs/",
+      "status": "valid",
+      "message": "有效 (置信度: 58.0%)",
+      "confidence": 0.58,
+      "page_title": "Aider Documentation | aider",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含命令参考内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/aider.md"
+    },
+    {
+      "product": "Amazon Q CLI",
+      "url": "https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/",
+      "status": "valid",
+      "message": "有效 (置信度: 53.3%)",
+      "confidence": 0.5333333333333333,
+      "page_title": "Amazon Q Developer",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (docs.aws.amazon.com)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/amazon-q.md"
+    },
+    {
+      "product": "Cline CLI",
+      "url": "https://github.com/cline/cline",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - cline/cline: Autonomous coding agent right in your IDE, capable of creating/editing files, ",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/cline.md"
+    },
+    {
+      "product": "OpenAI Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "status": "valid",
+      "message": "有效 (置信度: 48.3%)",
+      "confidence": 0.4833333333333333,
+      "page_title": "GitHub - openai/codex: Lightweight coding agent that runs in your terminal · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/codex.md"
+    },
+    {
+      "product": "CloudBase AI CLI",
+      "url": "https://github.com/TencentCloudBase/cloudbase-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 48.3%)",
+      "confidence": 0.4833333333333333,
+      "page_title": "GitHub - TencentCloudBase/cloudbase-cli: The cli tool for cloudbase · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/cloudbase.md"
+    },
+    {
+      "product": "Gemini CLI",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - google-gemini/gemini-cli: An open-source AI agent that brings the power of Gemini directly ",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/gemini.md"
+    },
+    {
+      "product": "GitHub Copilot CLI",
+      "url": "https://docs.github.com/copilot",
+      "status": "valid",
+      "message": "有效 (置信度: 68.3%)",
+      "confidence": 0.6833333333333333,
+      "page_title": "GitHub Copilot documentation - GitHub Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (docs.github.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/github-copilot.md"
+    },
+    {
+      "product": "Goose CLI",
+      "url": "https://github.com/block/goose",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - block/goose: an open source, extensible AI agent that goes beyond code suggestions - instal",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/goose.md"
+    },
+    {
+      "product": "OpenCode CLI",
+      "url": "https://github.com/opencode-ai/opencode",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - opencode-ai/opencode: A powerful AI coding agent. Built for the terminal. · GitHub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/opencode.md"
+    },
+    {
+      "product": "Qwen Code CLI",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "GitHub - QwenLM/qwen-code: An open-source AI agent that lives in your terminal. · GitHub",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/qwen-code.md"
+    },
+    {
+      "product": "Kimi CLI",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - MoonshotAI/kimi-cli: Kimi Code CLI is your next CLI agent. · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-agent/kimi.md"
+    },
+    {
+      "product": "Hugging Face CLI",
+      "url": "https://huggingface.co/docs/huggingface_hub/cli",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 30.0%)",
+      "confidence": 0.3,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/huggingface.md"
+    },
+    {
+      "product": "百度千帆 CLI",
+      "url": "https://cloud.baidu.com/doc/QIANFAN/s/sjlk6e5tx",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 17.5%)",
+      "confidence": 0.175,
+      "page_title": "百度千帆·大模型服务及Agent开发平台 -百度智能云",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/kilo.md"
+    },
+    {
+      "product": "LM Studio CLI",
+      "url": "https://lmstudio.ai/docs/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 0.0%)",
+      "confidence": 0.0,
+      "page_title": "无法获取内容",
+      "reasons": [],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/lm-studio.md"
+    },
+    {
+      "product": "Comfy CLI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "GitHub - Comfy-Org/ComfyUI: The most powerful and modular diffusion model GUI, api and backend with ",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/comfy.md"
+    },
+    {
+      "product": "通义千问 CLI",
+      "url": "https://help.aliyun.com/zh/dashscope/developer-reference/quick-start",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 5.0%)",
+      "confidence": 0.05,
+      "page_title": "千问API参考-大模型服务平台百炼(Model Studio)-阿里云帮助中心",
+      "reasons": [
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/qwen.md"
+    },
+    {
+      "product": "Ollama CLI",
+      "url": "https://github.com/ollama/ollama",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - ollama/ollama: Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, ",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/ollama.md"
+    },
+    {
+      "product": "Fastlane",
+      "url": "https://docs.fastlane.tools/",
+      "status": "valid",
+      "message": "有效 (置信度: 45.0%)",
+      "confidence": 0.44999999999999996,
+      "page_title": "fastlane docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/fastlane.md"
+    },
+    {
+      "product": "Flutter CLI",
+      "url": "https://docs.flutter.dev/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Flutter documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/flutter.md"
+    },
+    {
+      "product": "PowerShell",
+      "url": "https://learn.microsoft.com/powershell/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "PowerShell Documentation - PowerShell | Microsoft Learn",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/pwsh.md"
+    },
+    {
+      "product": "React Native CLI",
+      "url": "https://reactnative.dev/docs/set-up-your-environment",
+      "status": "valid",
+      "message": "有效 (置信度: 43.3%)",
+      "confidence": 0.4333333333333333,
+      "page_title": "Set Up Your Environment · React Native",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/react-native.md"
+    },
+    {
+      "product": "Replicate CLI",
+      "url": "https://replicate.com/docs",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Documentation – Replicate",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/ai-platform/replicate.md"
+    },
+    {
+      "product": "winget",
+      "url": "https://learn.microsoft.com/windows/package-manager/winget/",
+      "status": "valid",
+      "message": "有效 (置信度: 70.0%)",
+      "confidence": 0.7,
+      "page_title": "Use WinGet to install and manage applications | Microsoft Learn",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/winget.md"
+    },
+    {
+      "product": "Akamai CLI",
+      "url": "https://techdocs.akamai.com/cli/docs",
+      "status": "invalid",
+      "message": "HTTP 403",
+      "confidence": 0.0,
+      "page_title": "Access Denied",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cdn-network/akamai.md"
+    },
+    {
+      "product": "simctl",
+      "url": "https://developer.apple.com/library/archive/documentation/Xcode/Conceptual/iPhoneOSABIReference/Introduction/Introduction.html",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 0.0%)",
+      "confidence": 0.0,
+      "page_title": "Writing ARM64 code for Apple platforms | Apple Developer Documentation",
+      "reasons": [],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/simctl.md"
+    },
+    {
+      "product": "xcodebuild",
+      "url": "https://developer.apple.com/library/archive/technotes/tn2339/_index.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 30.0%)",
+      "confidence": 0.30000000000000004,
+      "page_title": "Technical Note TN2339: Building from the Command Line with Xcode FAQ",
+      "reasons": [
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/xcodebuild.md"
+    },
+    {
+      "product": "Fastly CLI",
+      "url": "https://developer.fastly.com/reference/cli/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 10.0%)",
+      "confidence": 0.1,
+      "page_title": "无法获取内容",
+      "reasons": [
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cdn-network/fastly.md"
+    },
+    {
+      "product": "VS Code CLI",
+      "url": "https://code.visualstudio.com/docs/editor/command-line",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 31.7%)",
+      "confidence": 0.31666666666666665,
+      "page_title": "Command Line Interface (CLI)",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/big-tech/vscode.md"
+    },
+    {
+      "product": "ArgoCD CLI",
+      "url": "https://argo-cd.readthedocs.io/en/latest/user-guide/commands/argocd/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 28.0%)",
+      "confidence": 0.27999999999999997,
+      "page_title": "Command Reference - Argo CD - Declarative GitOps CD for Kubernetes",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含命令参考内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/argocd.md"
+    },
+    {
+      "product": "Bunny CLI",
+      "url": "https://docs.bunny.net/hardware/load-balancers",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "无标题",
+      "reasons": [],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cdn-network/bunny.md"
+    },
+    {
+      "product": "Flux CLI",
+      "url": "https://fluxcd.io/flux/cmd/",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Flux CLI | Flux",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/flux.md"
+    },
+    {
+      "product": "GitLab Runner CLI",
+      "url": "https://docs.gitlab.com/runner/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 38.3%)",
+      "confidence": 0.3833333333333333,
+      "page_title": "GitLab Runner | GitLab Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/gitlab-runner.md"
+    },
+    {
+      "product": "Jenkins CLI",
+      "url": "https://www.jenkins.io/doc/book/managing/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Jenkins CLI",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/jenkins.md"
+    },
+    {
+      "product": "CircleCI CLI",
+      "url": "https://circleci.com/docs/local-cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "Install and configure the CircleCI local CLI - CircleCI Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/circleci.md"
+    },
+    {
+      "product": "Buildkite CLI",
+      "url": "https://buildkite.com/docs/agent/v3",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.325,
+      "page_title": "The Buildkite agent | Buildkite Documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/buildkite.md"
+    },
+    {
+      "product": "Spinnaker CLI",
+      "url": "https://spinnaker.io/docs/setup/other_config/spin/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "Install and Configure Spin CLI | Spinnaker",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/spinnaker.md"
+    },
+    {
+      "product": "Tekton CLI",
+      "url": "https://tekton.dev/docs/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "CLI | Tekton",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/tekton.md"
+    },
+    {
+      "product": "release-it",
+      "url": "https://github.com/release-it/release-it",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - release-it/release-it: 🚀 Automate versioning and package publishing · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/release-it.md"
+    },
+    {
+      "product": "Octopus Deploy CLI",
+      "url": "https://octopus.com/docs/octopus-rest-api/octo",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Page Not Found | Documentation and Support",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/octopus.md"
+    },
+    {
+      "product": "AWS CLI",
+      "url": "https://docs.aws.amazon.com/cli/latest/userguide/",
+      "status": "valid",
+      "message": "有效 (置信度: 52.5%)",
+      "confidence": 0.525,
+      "page_title": "AWS Command Line Interface",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "官方域名匹配 (docs.aws.amazon.com)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/aws.md"
+    },
+    {
+      "product": "Travis CI CLI",
+      "url": "https://github.com/travis-ci/travis.rb",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - travis-ci/travis.rb: Travis CI Client (CLI and Ruby library) · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cicd/travis.md"
+    },
+    {
+      "product": "AWS CDK CLI",
+      "url": "https://docs.aws.amazon.com/cdk/v2/guide/cli.html",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "AWS CDK CLI reference - AWS Cloud Development Kit (AWS CDK) v2",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (docs.aws.amazon.com)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/cdk.md"
+    },
+    {
+      "product": "阿里云 CLI",
+      "url": "https://help.aliyun.com/document_detail/121009.html",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 0.0%)",
+      "confidence": 0.0,
+      "page_title": "将阿里云Elasticsearch数据通过DataWorks迁移至MaxCompute-云原生大数据计算服务 MaxCompute-阿里云",
+      "reasons": [],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/aliyun.md"
+    },
+    {
+      "product": "Azure CLI",
+      "url": "https://learn.microsoft.com/en-us/cli/azure/",
+      "status": "valid",
+      "message": "有效 (置信度: 95.0%)",
+      "confidence": 0.9500000000000001,
+      "page_title": "Azure Command-Line Interface (CLI) documentation | Microsoft Learn",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (learn.microsoft.com)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/az.md"
+    },
+    {
+      "product": "AWS EB CLI",
+      "url": "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb3.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 26.7%)",
+      "confidence": 0.26666666666666666,
+      "page_title": "AWS Elastic Beanstalk",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "官方域名匹配 (docs.aws.amazon.com)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/eb.md"
+    },
+    {
+      "product": "EKS CLI",
+      "url": "https://eksctl.io/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 20.0%)",
+      "confidence": 0.2,
+      "page_title": "What is Eksctl? - Eksctl User Guide",
+      "reasons": [
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/eksctl.md"
+    },
+    {
+      "product": "Google Cloud Storage CLI",
+      "url": "https://cloud.google.com/storage/docs/gsutil",
+      "status": "valid",
+      "message": "有效 (置信度: 61.3%)",
+      "confidence": 0.6125,
+      "page_title": "gsutil tool | Cloud Storage | Google Cloud Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (cloud.google.com)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/gsutil.md"
+    },
+    {
+      "product": "Google Cloud CLI",
+      "url": "https://cloud.google.com/sdk/docs/install",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Quickstart: Install the Google Cloud CLI | Google Cloud SDK | Google Cloud Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (cloud.google.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/gcloud.md"
+    },
+    {
+      "product": "腾讯云 CLI",
+      "url": "https://cloud.tencent.com/document/product/440/64925",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "404-腾讯云 产业智变·云启未来 - 腾讯",
+      "reasons": [
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/tccli.md"
+    },
+    {
+      "product": "AWS SAM CLI",
+      "url": "https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 31.7%)",
+      "confidence": 0.31666666666666665,
+      "page_title": "AWS Serverless Application Model",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "官方域名匹配 (docs.aws.amazon.com)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/cloud/sam.md"
+    },
+    {
+      "product": "Buildah CLI",
+      "url": "https://github.com/containers/buildah/blob/main/docs/buildah.1.md",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "buildah/docs/buildah.1.md at main · containers/buildah · GitHub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/buildah.md"
+    },
+    {
+      "product": "Docker Compose CLI",
+      "url": "https://docs.docker.com/compose/reference/",
+      "status": "valid",
+      "message": "有效 (置信度: 68.3%)",
+      "confidence": 0.6833333333333333,
+      "page_title": "docker compose | Docker Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (docker.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/docker-compose.md"
+    },
+    {
+      "product": "Docker CLI",
+      "url": "https://docs.docker.com/engine/reference/commandline/docker/",
+      "status": "valid",
+      "message": "有效 (置信度: 62.5%)",
+      "confidence": 0.625,
+      "page_title": "docker | Docker Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (docker.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/docker.md"
+    },
+    {
+      "product": "Helm CLI",
+      "url": "https://helm.sh/docs/helm/",
+      "status": "valid",
+      "message": "有效 (置信度: 57.5%)",
+      "confidence": 0.575,
+      "page_title": "Helm Commands | Helm",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/helm.md"
+    },
+    {
+      "product": "K3s",
+      "url": "https://docs.k3s.io/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "K3s - Lightweight Kubernetes | K3s",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/k3s.md"
+    },
+    {
+      "product": "K9s",
+      "url": "https://k9scli.io/",
+      "status": "valid",
+      "message": "有效 (置信度: 55.0%)",
+      "confidence": 0.5499999999999999,
+      "page_title": "K9s - Manage Your Kubernetes Clusters In Style",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/k9s.md"
+    },
+    {
+      "product": "kind",
+      "url": "https://kind.sigs.k8s.io/",
+      "status": "valid",
+      "message": "有效 (置信度: 45.0%)",
+      "confidence": 0.44999999999999996,
+      "page_title": "kind",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/kind.md"
+    },
+    {
+      "product": "Minikube",
+      "url": "https://minikube.sigs.k8s.io/docs/commands/",
+      "status": "valid",
+      "message": "有效 (置信度: 58.0%)",
+      "confidence": 0.58,
+      "page_title": "Commands | minikube",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含命令参考内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/minikube.md"
+    },
+    {
+      "product": "Kubernetes CLI",
+      "url": "https://kubernetes.io/docs/reference/kubectl/",
+      "status": "valid",
+      "message": "有效 (置信度: 52.5%)",
+      "confidence": 0.525,
+      "page_title": "Command line tool (kubectl) | Kubernetes",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "官方域名匹配 (kubernetes.io)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/kubectl.md"
+    },
+    {
+      "product": "Podman CLI",
+      "url": "https://docs.podman.io/en/latest/Commands.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 30.5%)",
+      "confidence": 0.305,
+      "page_title": "Commands — Podman documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含命令参考内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/podman.md"
+    },
+    {
+      "product": "Apache Airflow CLI",
+      "url": "https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables.html",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "404 Not Found",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/airflow.md"
+    },
+    {
+      "product": "Kaniko",
+      "url": "https://github.com/GoogleContainerTools/kaniko",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - GoogleContainerTools/kaniko: Build Container Images In Kubernetes · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/kaniko.md"
+    },
+    {
+      "product": "dbt CLI",
+      "url": "https://docs.getdbt.com/reference/dbt-commands",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.475,
+      "page_title": "dbt Command reference | dbt Developer Hub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/dbt.md"
+    },
+    {
+      "product": "Databricks CLI",
+      "url": "https://docs.databricks.com/dev-tools/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "What is the Databricks CLI? | Databricks on AWS",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/databricks.md"
+    },
+    {
+      "product": "kafka",
+      "url": "https://kafka.apache.org/documentation/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "Documentation Redirect | Apache Kafka",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/kafka.md"
+    },
+    {
+      "product": "Skopeo CLI",
+      "url": "https://github.com/containers/skopeo",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - containers/skopeo: Work with remote images registries - retrieving information, images, sig",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/container/skopeo.md"
+    },
+    {
+      "product": "Apache Spark CLI",
+      "url": "https://spark.apache.org/docs/latest/submitting-applications.html",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 16.7%)",
+      "confidence": 0.16666666666666666,
+      "page_title": "Submitting Applications - Spark 4.1.1 Documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/spark.md"
+    },
+    {
+      "product": "Cassandra CLI",
+      "url": "https://cassandra.apache.org/doc/stable/cassandra/tools/cqlsh.html",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "404 Not Found",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/cassandra.md"
+    },
+    {
+      "product": "BigQuery CLI",
+      "url": "https://cloud.google.com/bigquery/docs/bq-command-line-tool",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "Use the bq tool | BigQuery | Google Cloud Documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/bigquery.md"
+    },
+    {
+      "product": "CockroachDB CLI",
+      "url": "https://www.cockroachlabs.com/docs/stable/cockroach-cli.html",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Page Not Found",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/cockroachdb.md"
+    },
+    {
+      "product": "etcd CLI",
+      "url": "https://etcd.io/docs/latest/learning-api/#etcdctl",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "404 Page not found | etcd",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/etcd.md"
+    },
+    {
+      "product": "Apache Flink CLI",
+      "url": "https://flink.apache.org/docs/",
+      "status": "valid",
+      "message": "有效 (置信度: 53.3%)",
+      "confidence": 0.5333333333333333,
+      "page_title": "Apache Flink Documentation | Apache Flink",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/flink.md"
+    },
+    {
+      "product": "Snowflake CLI",
+      "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/overview",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Snowflake CLI command reference | Snowflake Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/data-analytics/snowflake.md"
+    },
+    {
+      "product": "MySQL CLI",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/mysql.html",
+      "status": "invalid",
+      "message": "HTTP 403",
+      "confidence": 0.0,
+      "page_title": "fw_error_www",
+      "reasons": [
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/mysql.md"
+    },
+    {
+      "product": "InfluxDB CLI",
+      "url": "https://docs.influxdata.com/influxdb/v2/tools/influx-cli/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/influxdb.md"
+    },
+    {
+      "product": "Neo4j CLI",
+      "url": "https://neo4j.com/docs/operations-manual/current/cypher-shell/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15000000000000002,
+      "page_title": "Cypher Shell - Operations Manual",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/neo4j.md"
+    },
+    {
+      "product": "Redis CLI",
+      "url": "https://redis.io/docs/latest/develop/tools/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Redis CLI | Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (redis.io)",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/redis.md"
+    },
+    {
+      "product": "MongoDB Atlas CLI",
+      "url": "https://www.mongodb.com/docs/atlas/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "What is the Atlas CLI? - Atlas CLI - MongoDB Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (mongodb.com)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/mongodb-atlas.md"
+    },
+    {
+      "product": "MongoDB Shell",
+      "url": "https://www.mongodb.com/docs/mongodb-shell/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Welcome to MongoDB Shell (mongosh) - mongosh - MongoDB Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (mongodb.com)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/mongodb.md"
+    },
+    {
+      "product": "TiDB CLI",
+      "url": "https://docs.pingcap.com/tidb/stable/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.32499999999999996,
+      "page_title": "TiDB Self-Managed | TiDB Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/tidb.md"
+    },
+    {
+      "product": "Canva CLI",
+      "url": "https://www.canva.com/developers/docs",
+      "status": "invalid",
+      "message": "HTTP 403",
+      "confidence": 0.0,
+      "page_title": "Canva",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/canva.md"
+    },
+    {
+      "product": "PostgreSQL CLI",
+      "url": "https://www.postgresql.org/docs/current/app-psql.html",
+      "status": "valid",
+      "message": "有效 (置信度: 62.5%)",
+      "confidence": 0.625,
+      "page_title": "PostgreSQL: Documentation: 18: psql",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "官方域名匹配 (postgres)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/postgresql.md"
+    },
+    {
+      "product": "SQLite CLI",
+      "url": "https://www.sqlite.org/cli.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.32499999999999996,
+      "page_title": "Command Line Shell For SQLite",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/database/sqlite.md"
+    },
+    {
+      "product": "GraphicsMagick",
+      "url": "http://www.graphicsmagick.org/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GraphicsMagick Image Processing System",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/graphicsmagick.md"
+    },
+    {
+      "product": "ExifTool",
+      "url": "https://exiftool.org/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "ExifTool by Phil Harvey",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/exiftool.md"
+    },
+    {
+      "product": "Sharp CLI",
+      "url": "https://sharp.pixelplumbing.com/api-cli",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "404 | sharp",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/sharp.md"
+    },
+    {
+      "product": "Figma CLI",
+      "url": "https://www.figma.com/developers/api",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15000000000000002,
+      "page_title": "Introduction | Developer Docs",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/figma.md"
+    },
+    {
+      "product": "ImageMagick",
+      "url": "https://imagemagick.org/script/command-line-tools.php",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "ImageMagick | Command-line Tools",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/imagemagick.md"
+    },
+    {
+      "product": "FFmpeg",
+      "url": "https://ffmpeg.org/ffmpeg-all.html",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "ffmpeg Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (ffmpeg.org)",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/ffmpeg.md"
+    },
+    {
+      "product": "Squoosh CLI",
+      "url": "https://github.com/GoogleChromeLabs/squoosh",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - GoogleChromeLabs/squoosh: Make images smaller using best-in-class codecs, right in the brow",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/squoosh.md"
+    },
+    {
+      "product": "Specify CLI",
+      "url": "https://specifyapp.com/docs",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 17.5%)",
+      "confidence": 0.175,
+      "page_title": "Specify",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/design-media/specify.md"
+    },
+    {
+      "product": "Firebase CLI",
+      "url": "https://firebase.google.com/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "Firebase CLI reference | Firebase Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/firebase.md"
+    },
+    {
+      "product": "Heroku CLI",
+      "url": "https://devcenter.heroku.com/articles/heroku-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "The Heroku CLI | Heroku Dev Center",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/heroku.md"
+    },
+    {
+      "product": "Northflank CLI",
+      "url": "https://northflank.com/docs",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Documentation | Northflank",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/northflank.md"
+    },
+    {
+      "product": "Fly.io CLI",
+      "url": "https://fly.io/docs/hands-on/install-flyctl/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 21.7%)",
+      "confidence": 0.21666666666666667,
+      "page_title": "Install flyctl · Fly Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/fly.md"
+    },
+    {
+      "product": "Netlify CLI",
+      "url": "https://docs.netlify.com/cli/get-started/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "Get started with Netlify CLI | Netlify Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/netlify.md"
+    },
+    {
+      "product": "Railway CLI",
+      "url": "https://docs.railway.app/guides/cli",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15000000000000002,
+      "page_title": "无标题",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/railway.md"
+    },
+    {
+      "product": "Render CLI",
+      "url": "https://render.com/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "The Render CLI – Render Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/render.md"
+    },
+    {
+      "product": "Supabase CLI",
+      "url": "https://supabase.com/docs/reference/cli",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15000000000000002,
+      "page_title": "Redirecting (308)",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/supabase.md"
+    },
+    {
+      "product": "Clever Cloud CLI",
+      "url": "https://www.clever-cloud.com/developers/doc/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "Clever Tools (CLI) – Clever Cloud Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/clever.md"
+    },
+    {
+      "product": "Cloudflare Workers CLI",
+      "url": "https://developers.cloudflare.com/workers/wrangler/",
+      "status": "valid",
+      "message": "有效 (置信度: 43.3%)",
+      "confidence": 0.4333333333333333,
+      "page_title": "Wrangler · Cloudflare Workers docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/wrangler.md"
+    },
+    {
+      "product": "Vercel CLI",
+      "url": "https://vercel.com/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "Vercel CLI Overview",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/vercel.md"
+    },
+    {
+      "product": "Bat",
+      "url": "https://github.com/sharkdp/bat",
+      "status": "valid",
+      "message": "有效 (置信度: 70.0%)",
+      "confidence": 0.7,
+      "page_title": "GitHub - sharkdp/bat: A cat(1) clone with wings. · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/bat.md"
+    },
+    {
+      "product": "Crawley",
+      "url": "https://github.com/s0rg/crawley",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - s0rg/crawley: The unix-way web crawler · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/crawley.md"
+    },
+    {
+      "product": "Platform.sh CLI",
+      "url": "https://docs.platform.sh/administration/cli.html",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 26.7%)",
+      "confidence": 0.26666666666666666,
+      "page_title": "Command line interface (CLI) | Upsun Fixed Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-platform/platform.md"
+    },
+    {
+      "product": "Curlie",
+      "url": "https://github.com/rs/curlie",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - rs/curlie: The power of curl, the ease of use of httpie. · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/curlie.md"
+    },
+    {
+      "product": "Dasel",
+      "url": "https://github.com/tomwright/dasel",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - TomWright/dasel: Select, put and delete data from JSON, TOML, YAML, XML, INI, HCL and CSV f",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/dasel.md"
+    },
+    {
+      "product": "fzf",
+      "url": "https://github.com/junegunn/fzf",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - junegunn/fzf: :cherry_blossom: A command-line fuzzy finder · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/fzf.md"
+    },
+    {
+      "product": "Grex",
+      "url": "https://github.com/pemistahl/grex",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - pemistahl/grex: A command-line tool and Rust library with Python bindings for generating re",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/grex.md"
+    },
+    {
+      "product": "HTTPie",
+      "url": "https://httpie.io/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 55.0%)",
+      "confidence": 0.5499999999999999,
+      "page_title": "HTTPie 3.2.4 (latest) docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/httpie.md"
+    },
+    {
+      "product": "jq",
+      "url": "https://jqlang.github.io/jq/manual/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "jq 1.8 Manual",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/jq.md"
+    },
+    {
+      "product": "Just",
+      "url": "https://github.com/casey/just",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - casey/just: 🤖 Just a command runner · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/just.md"
+    },
+    {
+      "product": "Navi",
+      "url": "https://github.com/denisidoro/navi",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - denisidoro/navi: An interactive cheatsheet tool for the command-line · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/navi.md"
+    },
+    {
+      "product": "lazygit",
+      "url": "https://github.com/jesseduffield/lazygit",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - jesseduffield/lazygit: simple terminal UI for git commands · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/lazygit.md"
+    },
+    {
+      "product": "OpenCLI-RS",
+      "url": "https://github.com/nashsu/opencli-rs",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - nashsu/opencli-rs: Opencli-rs is a Blazing fast, memory-safe command-line tool — Fetch info",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/opencli-rs.md"
+    },
+    {
+      "product": "ripgrep",
+      "url": "https://github.com/BurntSushi/ripgrep",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - BurntSushi/ripgrep: ripgrep recursively searches directories for a regex pattern while resp",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/ripgrep.md"
+    },
+    {
+      "product": "The Fuck",
+      "url": "https://github.com/nvbn/thefuck",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "GitHub - nvbn/thefuck: Magnificent app which corrects your previous console command. · GitHub",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/thefuck.md"
+    },
+    {
+      "product": "rclone",
+      "url": "https://rclone.org/commands/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 18.0%)",
+      "confidence": 0.18,
+      "page_title": "Commands",
+      "reasons": [
+        "页面包含命令参考内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/rclone.md"
+    },
+    {
+      "product": "yq",
+      "url": "https://mikefarah.gitbook.io/yq/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/yq.md"
+    },
+    {
+      "product": "tldr",
+      "url": "https://github.com/tldr-pages/tldr",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - tldr-pages/tldr: Collaborative cheatsheets for console commands 📚. · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/tldr.md"
+    },
+    {
+      "product": "xq",
+      "url": "https://github.com/sibprogrammer/xq",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - sibprogrammer/xq: Command-line XML and HTML beautifier and content extractor · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/xq.md"
+    },
+    {
+      "product": "Docusaurus CLI",
+      "url": "https://docusaurus.io/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "CLI | Docusaurus",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/docusaurus.md"
+    },
+    {
+      "product": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/dev-utility/yt-dlp.md"
+    },
+    {
+      "product": "Doctoc",
+      "url": "https://github.com/thlorenz/doctoc",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - thlorenz/doctoc: 📜 Generates table of contents for markdown files inside local git reposito",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/doctoc.md"
+    },
+    {
+      "product": "Alex",
+      "url": "https://github.com/get-alex/alex",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - get-alex/alex: Catch insensitive, inconsiderate writing · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/alex.md"
+    },
+    {
+      "product": "MkDocs CLI",
+      "url": "https://www.mkdocs.org/user-guide/cli/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "Command Line Interface - MkDocs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/mkdocs.md"
+    },
+    {
+      "product": "Glow",
+      "url": "https://github.com/charmbracelet/glow",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - charmbracelet/glow: Render markdown on the CLI, with pizzazz! 💅🏻 · GitHub",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/glow.md"
+    },
+    {
+      "product": "Marp CLI",
+      "url": "https://github.com/marp-team/marp",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - marp-team/marp: The entrance repository of Markdown presentation ecosystem · GitHub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/marp.md"
+    },
+    {
+      "product": "Translate Shell",
+      "url": "https://github.com/soimort/translate-shell",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.475,
+      "page_title": "GitHub - soimort/translate-shell: :speech_balloon: Command-line translator using Google Translate, B",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/docs-tool/translate-shell.md"
+    },
+    {
+      "product": "AWS SES",
+      "url": "https://docs.aws.amazon.com/cli/latest/reference/ses/",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "ses — AWS CLI 2.34.23 Command Reference",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (docs.aws.amazon.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/aws-ses.md"
+    },
+    {
+      "product": "Mailchimp CLI",
+      "url": "https://mailchimp.com/developer/marketing/api/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 27.5%)",
+      "confidence": 0.275,
+      "page_title": "Mailchimp Marketing API Reference | Mailchimp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/mailchimp.md"
+    },
+    {
+      "product": "Resend CLI",
+      "url": "https://resend.com/docs/api-reference/introduction",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Introduction - Resend",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/resend.md"
+    },
+    {
+      "product": "Postmark CLI",
+      "url": "https://postmarkapp.com/developer",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Introduction | Postmark Developer Documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/postmark.md"
+    },
+    {
+      "product": "Twilio CLI",
+      "url": "https://www.twilio.com/docs/twilio-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 70.0%)",
+      "confidence": 0.7,
+      "page_title": "Twilio CLI | Twilio",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/twilio.md"
+    },
+    {
+      "product": "Boundary CLI",
+      "url": "https://developer.hashicorp.com/boundary/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Documentation | Boundary | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/boundary.md"
+    },
+    {
+      "product": "Consul CLI",
+      "url": "https://developer.hashicorp.com/consul/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Consul Documentation | Consul | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/consul.md"
+    },
+    {
+      "product": "Nomad CLI",
+      "url": "https://developer.hashicorp.com/nomad/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Documentation | Nomad | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/nomad.md"
+    },
+    {
+      "product": "Packer CLI",
+      "url": "https://developer.hashicorp.com/packer/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 57.5%)",
+      "confidence": 0.575,
+      "page_title": "Packer documentation | Packer | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/packer.md"
+    },
+    {
+      "product": "Vagrant CLI",
+      "url": "https://developer.hashicorp.com/vagrant/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 52.5%)",
+      "confidence": 0.525,
+      "page_title": "Documentation | Vagrant | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/vagrant.md"
+    },
+    {
+      "product": "SendGrid CLI",
+      "url": "https://docs.sendgrid.com/api-reference/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "SendGrid v3 API reference | SendGrid Docs | Twilio",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/email-marketing/sendgrid.md"
+    },
+    {
+      "product": "Vault CLI",
+      "url": "https://developer.hashicorp.com/vault/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 57.5%)",
+      "confidence": 0.575,
+      "page_title": "Vault product documentation | Vault | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/vault.md"
+    },
+    {
+      "product": "Waypoint CLI",
+      "url": "https://developer.hashicorp.com/waypoint/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Documentation | Waypoint | HashiCorp Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/hashicorp/waypoint.md"
+    },
+    {
+      "product": "AWS CDK CLI",
+      "url": "https://docs.aws.amazon.com/cdk/v2/guide/cli.html",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "AWS CDK CLI reference - AWS Cloud Development Kit (AWS CDK) v2",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (docs.aws.amazon.com)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/aws-cdk.md"
+    },
+    {
+      "product": "Ansible CLI",
+      "url": "https://docs.ansible.com/ansible/latest/command_guide/index.html",
+      "status": "valid",
+      "message": "有效 (置信度: 62.5%)",
+      "confidence": 0.625,
+      "page_title": "Using Ansible command line tools — Ansible Community Documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/ansible.md"
+    },
+    {
+      "product": "CloudFormation CLI",
+      "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "AWS CloudFormation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/cloudformation.md"
+    },
+    {
+      "product": "OpenTofu CLI",
+      "url": "https://opentofu.org/docs/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "Documentation | OpenTofu",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/tofu.md"
+    },
+    {
+      "product": "Pulumi CLI",
+      "url": "https://www.pulumi.com/docs/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Pulumi CLI Overview | Pulumi Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/pulumi.md"
+    },
+    {
+      "product": "Terraform CLI",
+      "url": "https://developer.hashicorp.com/terraform/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Terraform CLI Documentation | Terraform | HashiCorp Developer",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/terraform.md"
+    },
+    {
+      "product": "Crossplane CLI",
+      "url": "https://docs.crossplane.io/latest/cli.html",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "CLI Reference · Crossplane v2.2",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/iac/crossplane.md"
+    },
+    {
+      "product": "钉钉 CLI",
+      "url": "https://open.dingtalk.com/document/robots/robot-overview",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 10.0%)",
+      "confidence": 0.1,
+      "page_title": "钉钉开放平台",
+      "reasons": [
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/dingtalk.md"
+    },
+    {
+      "product": "飞书 CLI",
+      "url": "https://open.feishu.cn/document/server-docs/api-overview",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 5.0%)",
+      "confidence": 0.05,
+      "page_title": "Documentation - Feishu Open Platform",
+      "reasons": [
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/feishu.md"
+    },
+    {
+      "product": "Discord CLI",
+      "url": "https://discord.com/developers/docs/interactions/receiving-and-responding",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Receiving and Responding to Interactions - Documentation - Discord",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/discord.md"
+    },
+    {
+      "product": "Telegram CLI",
+      "url": "https://core.telegram.org/api",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.375,
+      "page_title": "Telegram APIs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/telegram.md"
+    },
+    {
+      "product": "Microsoft Teams CLI",
+      "url": "https://learn.microsoft.com/microsoftteams/platform/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 38.3%)",
+      "confidence": 0.3833333333333333,
+      "page_title": "Microsoft Teams Platform | Build agents",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/teams.md"
+    },
+    {
+      "product": "Datadog Agent CLI",
+      "url": "https://docs.datadoghq.com/agent/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/datadog-agent.md"
+    },
+    {
+      "product": "Better Stack CLI",
+      "url": "https://betterstack.com/docs",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 28.3%)",
+      "confidence": 0.2833333333333333,
+      "page_title": "Getting started | Better Stack Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/betterstack.md"
+    },
+    {
+      "product": "Zoom CLI",
+      "url": "https://marketplace.zoom.us/docs/cli",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Zoom Developer Docs - 404 - Zoom Developer Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/zoom.md"
+    },
+    {
+      "product": "Slack CLI",
+      "url": "https://api.slack.com/automation/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "Slack CLI | Slack Developer Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/messaging/slack.md"
+    },
+    {
+      "product": "Grafana CLI",
+      "url": "https://grafana.com/docs/grafana/latest/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Grafana server CLI | Grafana documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/grafana.md"
+    },
+    {
+      "product": "Datadog CLI",
+      "url": "https://docs.datadoghq.com/continuous_integration/testing_cli/",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "无标题",
+      "reasons": [
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/datadog.md"
+    },
+    {
+      "product": "Loki CLI",
+      "url": "https://grafana.com/docs/loki/latest/query/logcli",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "LogCLI | Grafana Loki documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/loki.md"
+    },
+    {
+      "product": "Jaeger CLI",
+      "url": "https://www.jaegertracing.io/docs/latest/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Introduction | Jaeger",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/jaeger.md"
+    },
+    {
+      "product": "New Relic CLI",
+      "url": "https://developer.newrelic.com/automate-workflows/get-started/new-relic-cli/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 23.3%)",
+      "confidence": 0.2333333333333333,
+      "page_title": "New Relic Developers",
+      "reasons": [
+        "标题包含产品关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/newrelic.md"
+    },
+    {
+      "product": "Sentry CLI",
+      "url": "https://docs.sentry.io/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Sentry CLI",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/sentry.md"
+    },
+    {
+      "product": "PagerDuty CLI",
+      "url": "https://support.pagerduty.com/docs/pd-cli",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Page Not Found",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/pagerduty.md"
+    },
+    {
+      "product": "OpenTelemetry CLI",
+      "url": "https://opentelemetry.io/docs/reference/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 17.5%)",
+      "confidence": 0.175,
+      "page_title": "Specifications | OpenTelemetry",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/opentelemetry.md"
+    },
+    {
+      "product": "Homebrew",
+      "url": "https://docs.brew.sh/",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Documentation — Homebrew Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (brew.sh)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/brew.md"
+    },
+    {
+      "product": "Cargo",
+      "url": "https://doc.rust-lang.org/cargo/commands/",
+      "status": "valid",
+      "message": "有效 (置信度: 85.0%)",
+      "confidence": 0.85,
+      "page_title": "Cargo Commands - The Cargo Book",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (rust-lang.org)",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/cargo.md"
+    },
+    {
+      "product": "Bun",
+      "url": "https://bun.sh/docs/cli/bun",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "官方域名匹配 (bun.sh)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/bun.md"
+    },
+    {
+      "product": "Prometheus CLI",
+      "url": "https://prometheus.io/docs/prometheus/latest/configuration/configuration",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.32499999999999996,
+      "page_title": "Configuration | Prometheus",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/monitoring/prometheus.md"
+    },
+    {
+      "product": "Composer",
+      "url": "https://getcomposer.org/doc/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Composer",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/composer.md"
+    },
+    {
+      "product": "gem",
+      "url": "https://guides.rubygems.org/command-reference/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 30.0%)",
+      "confidence": 0.30000000000000004,
+      "page_title": "Command Reference - RubyGems Guides",
+      "reasons": [
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/gem.md"
+    },
+    {
+      "product": "conda",
+      "url": "https://docs.conda.io/projects/conda/",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "Conda Documentation — conda 26.3.1 documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/conda.md"
+    },
+    {
+      "product": "Go",
+      "url": "https://go.dev/doc/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Documentation - The Go Programming Language",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (go.dev)",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/go.md"
+    },
+    {
+      "product": ".NET CLI",
+      "url": "https://docs.microsoft.com/dotnet/core/tools/",
+      "status": "valid",
+      "message": "有效 (置信度: 55.0%)",
+      "confidence": 0.5499999999999999,
+      "page_title": ".NET CLI | Microsoft Learn",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/dotnet.md"
+    },
+    {
+      "product": "Gradle",
+      "url": "https://docs.gradle.org/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.5,
+      "page_title": "Gradle User Manual",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/gradle.md"
+    },
+    {
+      "product": "Maven",
+      "url": "https://maven.apache.org/guides/",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.5,
+      "page_title": "Maven Documentation – Maven",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/maven.md"
+    },
+    {
+      "product": "Node.js",
+      "url": "https://nodejs.org/docs/latest/api/",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "Index | Node.js v25.9.0 Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "官方域名匹配 (nodejs.org)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/node.md"
+    },
+    {
+      "product": "npm",
+      "url": "https://docs.npmjs.com/cli-documentation/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 15.0%)",
+      "confidence": 0.15000000000000002,
+      "page_title": "无标题",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/npm.md"
+    },
+    {
+      "product": "pnpm",
+      "url": "https://pnpm.io/cli/add",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "pnpm add | pnpm",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/pnpm.md"
+    },
+    {
+      "product": "Deno",
+      "url": "https://docs.deno.com/runtime/reference",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Page not found",
+      "reasons": [
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/deno.md"
+    },
+    {
+      "product": "pip",
+      "url": "https://pip.pypa.io/en/stable/cli/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Commands - pip documentation v26.0.1",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/pip.md"
+    },
+    {
+      "product": "Poetry",
+      "url": "https://python-poetry.org/docs/",
+      "status": "valid",
+      "message": "有效 (置信度: 65.0%)",
+      "confidence": 0.65,
+      "page_title": "Introduction | Documentation | Poetry - Python dependency management and packaging made easy",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/poetry.md"
+    },
+    {
+      "product": "uv",
+      "url": "https://docs.astral.sh/uv/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 25.0%)",
+      "confidence": 0.25,
+      "page_title": "无标题",
+      "reasons": [
+        "URL 路径包含产品名称",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/uv.md"
+    },
+    {
+      "product": "Yarn",
+      "url": "https://yarnpkg.com/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 55.0%)",
+      "confidence": 0.5499999999999999,
+      "page_title": "CLI Reference | Yarn",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/yarn.md"
+    },
+    {
+      "product": "NuGet CLI",
+      "url": "https://docs.microsoft.com/nuget/reference/nuget-exe-cli-reference",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "NuGet Command-Line Interface (CLI) Reference | Microsoft Learn",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/package-manager/nuget.md"
+    },
+    {
+      "product": "Shopify CLI",
+      "url": "https://shopify.dev/docs/api/shopify-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "Shopify CLI",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/payment/shopify.md"
+    },
+    {
+      "product": "Braintree CLI",
+      "url": "https://developer.paypal.com/braintree/docs",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Braintree Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/payment/braintree.md"
+    },
+    {
+      "product": "Square CLI",
+      "url": "https://developer.squareup.com/docs/build-cli",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Square Developer",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/payment/square.md"
+    },
+    {
+      "product": "PayPal CLI",
+      "url": "https://developer.paypal.com/api/rest/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 27.5%)",
+      "confidence": 0.275,
+      "page_title": "Get Started with PayPal REST APIs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/payment/paypal.md"
+    },
+    {
+      "product": "Asana CLI",
+      "url": "https://developers.asana.com/docs/cli",
+      "status": "invalid",
+      "message": "HTTP 404",
+      "confidence": 0.0,
+      "page_title": "Page not found",
+      "reasons": [
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "⚠️ 页面可能不是文档页"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/project-management/asana.md"
+    },
+    {
+      "product": "Stripe CLI",
+      "url": "https://docs.stripe.com/stripe-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Stripe CLI | Stripe Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/payment/stripe.md"
+    },
+    {
+      "product": "Jira CLI",
+      "url": "https://github.com/ankitpokhrel/jira-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.475,
+      "page_title": "GitHub - ankitpokhrel/jira-cli: 🔥 Feature-rich interactive Jira command line. · GitHub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/project-management/jira.md"
+    },
+    {
+      "product": "Linear CLI",
+      "url": "https://linear.app/docs",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 27.5%)",
+      "confidence": 0.275,
+      "page_title": "Linear Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/project-management/linear.md"
+    },
+    {
+      "product": "Trello CLI",
+      "url": "https://developer.atlassian.com/cloud/trello/rest/",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "The Trello REST API",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/project-management/trello.md"
+    },
+    {
+      "product": "Auth0 CLI",
+      "url": "https://auth0.github.io/auth0-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Auth0 CLI | Build, manage and test your Auth0 integrations from the command line.",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/auth0.md"
+    },
+    {
+      "product": "Let's Encrypt CLI",
+      "url": "https://eff-certbot.readthedocs.io/en/stable/using.html#certbot-command-line",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 20.0%)",
+      "confidence": 0.2,
+      "page_title": "User Guide — Certbot 5.4.0 documentation",
+      "reasons": [
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/certbot.md"
+    },
+    {
+      "product": "Bitwarden CLI",
+      "url": "https://bitwarden.com/help/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "Password Manager CLI | Bitwarden",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/bitwarden.md"
+    },
+    {
+      "product": "Doppler CLI",
+      "url": "https://docs.doppler.com/docs/install-cli",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.325,
+      "page_title": "Install CLI",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/doppler.md"
+    },
+    {
+      "product": "Cloudflare Access CLI",
+      "url": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 31.7%)",
+      "confidence": 0.31666666666666665,
+      "page_title": "Downloads · Cloudflare One docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/cloudflared.md"
+    },
+    {
+      "product": "Keycloak CLI",
+      "url": "https://www.keycloak.org/server/all-config",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.325,
+      "page_title": "All configuration - Keycloak",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/keycloak.md"
+    },
+    {
+      "product": "Infisical CLI",
+      "url": "https://infisical.com/docs/cli/overview",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 27.5%)",
+      "confidence": 0.275,
+      "page_title": "Install - Infisical",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/infisical.md"
+    },
+    {
+      "product": "1Password CLI",
+      "url": "https://developer.1password.com/docs/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "1Password CLI | 1Password Developer",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/1password.md"
+    },
+    {
+      "product": "smart_verification_report_v2",
+      "url": "未找到",
+      "status": "error",
+      "message": "无法提取 URL",
+      "confidence": 0.0,
+      "page_title": null,
+      "reasons": [
+        "无法从文件中提取 URL"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/smart_verification_report_v2.md"
+    },
+    {
+      "product": "Vault CLI",
+      "url": "https://developer.hashicorp.com/vault/docs/commands",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "Vault CLI usage | Vault | HashiCorp Developer",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/vault.md"
+    },
+    {
+      "product": "Astro CLI",
+      "url": "https://docs.astro.build/en/reference/cli-reference/",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 32.5%)",
+      "confidence": 0.325,
+      "page_title": "CLI Commands | Docs",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/static-site/astro.md"
+    },
+    {
+      "product": "Okta CLI",
+      "url": "https://github.com/okta/okta-cli",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - okta/okta-cli: Okta CLI [Beta] tools to help bootstrap new Okta organizations, and applicat",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/okta.md"
+    },
+    {
+      "product": "Hugo CLI",
+      "url": "https://gohugo.io/commands/hugo/",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "hugo",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/static-site/hugo.md"
+    },
+    {
+      "product": "SSLyze CLI",
+      "url": "https://github.com/nabla-c0d3/sslyze",
+      "status": "valid",
+      "message": "有效 (置信度: 42.5%)",
+      "confidence": 0.42499999999999993,
+      "page_title": "GitHub - nabla-c0d3/sslyze: Fast and powerful SSL/TLS scanning library. · GitHub",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/security/sslyze.md"
+    },
+    {
+      "product": "Next.js CLI",
+      "url": "https://nextjs.org/docs/app/api-reference/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 50.0%)",
+      "confidence": 0.49999999999999994,
+      "page_title": "API Reference: CLI | Next.js",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/static-site/nextjs.md"
+    },
+    {
+      "product": "Playwright CLI",
+      "url": "https://playwright.dev/docs/test-cli",
+      "status": "suspicious",
+      "message": "需要确认 (置信度: 37.5%)",
+      "confidence": 0.37499999999999994,
+      "page_title": "Command line | Playwright",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/testing/playwright.md"
+    },
+    {
+      "product": "k6 CLI",
+      "url": "https://grafana.com/docs/k6/latest/",
+      "status": "invalid",
+      "message": "内容不匹配 (置信度: 22.5%)",
+      "confidence": 0.22499999999999998,
+      "page_title": "Grafana k6 | Grafana k6 documentation",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/testing/k6.md"
+    },
+    {
+      "product": "Cypress CLI",
+      "url": "https://docs.cypress.io/guides/guides/command-line",
+      "status": "valid",
+      "message": "有效 (置信度: 55.0%)",
+      "confidence": 0.55,
+      "page_title": "Command Line Interface (CLI) Commands and Options for Cypress | Cypress Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/testing/cypress.md"
+    },
+    {
+      "product": "Git",
+      "url": "https://git-scm.com/docs/git",
+      "status": "valid",
+      "message": "有效 (置信度: 80.0%)",
+      "confidence": 0.8,
+      "page_title": "Git - git Documentation",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面包含文档相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/version-control/git.md"
+    },
+    {
+      "product": "GitHub Codespaces CLI",
+      "url": "https://docs.github.com/codespaces",
+      "status": "valid",
+      "message": "有效 (置信度: 68.3%)",
+      "confidence": 0.6833333333333333,
+      "page_title": "Codespaces documentation - GitHub Docs",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "官方域名匹配 (docs.github.com)",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/version-control/codespaces.md"
+    },
+    {
+      "product": "Bitbucket CLI",
+      "url": "https://developer.atlassian.com/cloud/bitbucket/",
+      "status": "valid",
+      "message": "有效 (置信度: 47.5%)",
+      "confidence": 0.4749999999999999,
+      "page_title": "Integrating with Bitbucket Cloud",
+      "reasons": [
+        "标题部分匹配 (1 个关键词)",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词",
+        "页面包含文档相关内容"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/version-control/bitbucket.md"
+    },
+    {
+      "product": "GitHub CLI",
+      "url": "https://cli.github.com/",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub CLI | Take GitHub to the command line",
+      "reasons": [
+        "标题包含产品关键词",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/version-control/github.md"
+    },
+    {
+      "product": "ShellSpec",
+      "url": "https://github.com/shellspec/shellspec",
+      "status": "valid",
+      "message": "有效 (置信度: 60.0%)",
+      "confidence": 0.6,
+      "page_title": "GitHub - shellspec/shellspec: A full-featured BDD unit testing framework for bash, ksh, zsh, dash an",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'CLI' 关键词"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/testing/shellspec.md"
+    },
+    {
+      "product": "GitLab CLI",
+      "url": "https://gitlab.com/gitlab-org/cli",
+      "status": "valid",
+      "message": "有效 (置信度: 75.0%)",
+      "confidence": 0.75,
+      "page_title": "GitLab.org / cli · GitLab",
+      "reasons": [
+        "标题包含产品关键词",
+        "URL 路径包含产品名称",
+        "页面包含 'command line interface' 相关内容",
+        "页面内容中提到产品名称"
+      ],
+      "file": "/Users/agiray/Desktop/GitHub/cli-products/version-control/gitlab.md"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Docker CLI (`docker`)
 
 ## 基本信息
-- 官方文档：https://docs.docker.com/engine/reference/commandline/cli/
+- 官方文档：https://docs.docker.com/engine/reference/commandline/docker/
 - 安装方式：brew install docker / apt install docker.io
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

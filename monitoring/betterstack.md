@@ -1,7 +1,7 @@
 # Better Stack CLI (`betterstack`)
 
 ## 基本信息
-- 官方文档：https://betterstack.com/docs/cli
+- 官方文档：https://betterstack.com/docs
 - 安装方式：`brew install betterstack/tap/betterstack`
 - 开源：否
 - 平台支持：macOS / Linux

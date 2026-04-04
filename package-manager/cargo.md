@@ -1,7 +1,7 @@
 # Cargo (`cargo`) - Rust
 
 ## 基本信息
-- 官方文档：https://doc.rust-lang.org/cargo/
+- 官方文档：https://doc.rust-lang.org/cargo/commands/
 - 安装方式：`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 - 开源：是 (MIT / Apache-2.0)
 - 平台支持：macOS / Linux / Windows

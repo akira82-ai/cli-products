@@ -1,7 +1,7 @@
 # AWS CDK CLI (`cdk`)
 
 ## 基本信息
-- 官方文档：https://docs.aws.amazon.com/cdk/
+- 官方文档：https://docs.aws.amazon.com/cdk/v2/guide/cli.html
 - 安装方式：`npm install -g aws-cdk`
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

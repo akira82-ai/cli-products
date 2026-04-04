@@ -1,7 +1,7 @@
 # PayPal CLI (`paypal`)
 
 ## 基本信息
-- 官方文档：https://developer.paypal.com/docs/api/overview/
+- 官方文档：https://developer.paypal.com/api/rest/
 - 安装方式：无官方 CLI（`@paypal/cli` 不存在于 npm），通过 REST API 操作
 - 开源：否
 - 平台支持：macOS / Linux / Windows

@@ -1,7 +1,7 @@
 # Yarn (`yarn`) - Meta
 
 ## 基本信息
-- 官方文档：https://yarnpkg.com/
+- 官方文档：https://yarnpkg.com/cli
 - 安装方式：`npm install -g yarn` 或 `corepack enable`
 - 开源：是 (BSD-2-Clause)
 - 平台支持：macOS / Linux / Windows

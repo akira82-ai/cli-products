@@ -1,7 +1,7 @@
 # K9s (`k9s`)
 
 ## 基本信息
-- 官方文档：https://k9sro.io/
+- 官方文档：https://k9scli.io/
 - 安装方式：brew install k9s
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux

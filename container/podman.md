@@ -1,7 +1,7 @@
 # Podman CLI (`podman`)
 
 ## 基本信息
-- 官方文档：https://podman.io/docs
+- 官方文档：https://docs.podman.io/en/latest/Commands.html
 - 安装方式：brew install podman
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

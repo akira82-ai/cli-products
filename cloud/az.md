@@ -1,7 +1,7 @@
 # Azure CLI (`az`)
 
 ## 基本信息
-- 官方文档：https://learn.microsoft.com/cli/azure/
+- 官方文档：https://learn.microsoft.com/en-us/cli/azure/
 - 安装方式：`brew install azure-cli`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

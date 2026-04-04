@@ -1,7 +1,7 @@
 # Shopify CLI (`shopify`)
 
 ## 基本信息
-- 官方文档：https://shopify.dev/docs/shopify-cli
+- 官方文档：https://shopify.dev/docs/api/shopify-cli
 - 安装方式：`npm install -g @shopify/cli @shopify/theme`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

@@ -1,7 +1,7 @@
 # jq (`jq`)
 
 ## 基本信息
-- 官方文档：https://jqlang.github.io/jq/
+- 官方文档：https://jqlang.github.io/jq/manual/
 - 安装方式：brew install jq
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

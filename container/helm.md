@@ -1,7 +1,7 @@
 # Helm CLI (`helm`)
 
 ## 基本信息
-- 官方文档：https://helm.sh/docs/
+- 官方文档：https://helm.sh/docs/helm/
 - 安装方式：brew install helm
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

@@ -1,7 +1,7 @@
 # Keycloak CLI (`kcadm`)
 
 ## 基本信息
-- 官方文档：https://www.keycloak.org/docs/latest/server_admin/#admin-cli
+- 官方文档：https://www.keycloak.org/server/all-config
 - 安装方式：Keycloak 安装包自带（`bin/kcadm.sh`）
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

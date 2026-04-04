@@ -1,7 +1,7 @@
 # Buildah CLI (`buildah`)
 
 ## 基本信息
-- 官方文档：https://buildah.io/
+- 官方文档：https://github.com/containers/buildah/blob/main/docs/buildah.1.md
 - 安装方式：brew install buildah / apt install buildah
 - 开源：是 (Apache-2.0)
 - 平台支持：Linux（macOS 有限支持）

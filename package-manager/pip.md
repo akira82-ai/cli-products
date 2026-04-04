@@ -1,7 +1,7 @@
 # pip (`pip`) - Python
 
 ## 基本信息
-- 官方文档：https://pip.pypa.io/en/stable/
+- 官方文档：https://pip.pypa.io/en/stable/cli/
 - 安装方式：随 Python 安装或 `python -m ensurepip`
 - 开源：是 (MIT)
 - 平台支持：macOS / Linux / Windows

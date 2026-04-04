@@ -1,0 +1,74 @@
+# 第二阶段 URL 搜索任务
+
+## 
+
+- [Claude Code CLI](https://code.claude.com/docs/en/overview) - 内容不匹配 (置信度: 26.7%)
+- [百度千帆 CLI](https://cloud.baidu.com/doc/QIANFAN/index.html) - 内容不匹配 (置信度: 20.0%)
+- [Qwen Code CLI](https://github.com/QwenLM/qwen-code) - 内容不匹配 (置信度: 20.0%)
+- [通义千问 CLI](https://help.aliyun.com/zh/qwen/) - 内容不匹配 (置信度: 0.0%)
+- [Replicate CLI](https://replicate.com/docs/reference/cli) - HTTP 404
+- [React Native CLI](https://reactnative.dev/docs/environment-setup) - 内容不匹配 (置信度: 26.7%)
+- [simctl](https://developer.apple.com/documentation/xcode-release-notes/xcode-16-release-notes) - 内容不匹配 (置信度: 0.0%)
+- [VS Code CLI](https://code.visualstudio.com/docs/editor/command-line) - 内容不匹配 (置信度: 23.3%)
+- [xcodebuild](https://developer.apple.com/xcode/) - 内容不匹配 (置信度: 0.0%)
+- [Akamai CLI](https://techdocs.akamai.com/cli/docs) - HTTP 403
+- [Fastly CLI](https://developer.fastly.com/reference/cli/) - 内容不匹配 (置信度: 10.0%)
+- [Bunny CLI](https://github.com/niclas/bunny-cli) - HTTP 404
+- [Octopus Deploy CLI](https://octopus.com/docs/octopus-rest-api/octo) - HTTP 404
+- [阿里云 CLI](https://help.aliyun.com/document/detail/110302.html) - HTTP 404
+- [AWS EB CLI](https://docs.aws.amazon.com/elasticbeanstalk/) - HTTP 403
+- [EKS CLI](https://eksctl.io/) - 内容不匹配 (置信度: 10.0%)
+- [腾讯云 CLI](https://cloud.tencent.com/document/product/440/64925) - HTTP 404
+- [Buildah CLI](https://github.com/containers/buildah/blob/main/buildah.1.md) - HTTP 404
+- [K9s](https://k9sro.io/) - 连接失败
+- [Apache Airflow CLI](https://airflow.apache.org/docs/apache-airflow/stable/cli-and-env-variables.html) - HTTP 404
+- [Apache Spark CLI](https://spark.apache.org/docs/latest/submitting-applications.html) - 内容不匹配 (置信度: 23.3%)
+- [CockroachDB CLI](https://www.cockroachlabs.com/docs/stable/build-a-cockroachdb-app.html) - HTTP 404
+- [Cassandra CLI](https://cassandra.apache.org/doc/latest/cassandra/tools/cqlsh.html) - HTTP 404
+- [etcd CLI](https://etcd.io/docs/latest/learning-api/#etcdctl) - HTTP 404
+- [MySQL CLI](https://dev.mysql.com/doc/refman/8.0/en/mysql.html) - HTTP 403
+- [Neo4j CLI](https://neo4j.com/docs/operations-manual/current/cypher-shell/) - 内容不匹配 (置信度: 10.0%)
+- [Canva CLI](https://www.canva.com/developers/docs/) - HTTP 403
+- [Figma CLI](https://www.figma.com/developers/api) - 内容不匹配 (置信度: 10.0%)
+- [Sharp CLI](https://sharp.pixelplumbing.com/) - 内容不匹配 (置信度: 20.0%)
+- [Specify CLI](https://docs.specifyapp.com/) - 内容不匹配 (置信度: 20.0%)
+- [Fly.io CLI](https://fly.io/docs/hands-on/install-flyctl/) - 内容不匹配 (置信度: 13.3%)
+- [Railway CLI](https://docs.railway.app/guides/cli) - 内容不匹配 (置信度: 10.0%)
+- [Supabase CLI](https://supabase.com/docs/guides/cli) - 内容不匹配 (置信度: 10.0%)
+- [Platform.sh CLI](https://docs.platform.sh/administration/cli.html) - 内容不匹配 (置信度: 23.3%)
+- [The Fuck](https://github.com/nvbn/thefuck) - 内容不匹配 (置信度: 20.0%)
+- [rclone](https://rclone.org/docs/) - 内容不匹配 (置信度: 10.0%)
+- [xq](https://github.com/kislyuk/yq) - 内容不匹配 (置信度: 0.0%)
+- [yq](https://mikefarah.gitbook.io/yq/) - 内容不匹配 (置信度: 20.0%)
+- [Mailchimp CLI](https://mailchimp.com/developer/) - 内容不匹配 (置信度: 20.0%)
+- [Postmark CLI](https://postmarkapp.com/developer) - 内容不匹配 (置信度: 20.0%)
+- [Resend CLI](https://resend.com/docs) - 内容不匹配 (置信度: 0.0%)
+- [SendGrid CLI](https://docs.sendgrid.com/for-developers/sending-email) - 内容不匹配 (置信度: 0.0%)
+- [AWS CDK CLI](https://docs.aws.amazon.com/cdk/) - 内容不匹配 (置信度: 15.0%)
+- [Crossplane CLI](https://docs.crossplane.io/) - 内容不匹配 (置信度: 0.0%)
+- [飞书 CLI](https://open.feishu.cn/document/cli) - 内容不匹配 (置信度: 10.0%)
+- [钉钉 CLI](https://github.com/open-dingtalk/dingtalk-cli) - HTTP 404
+- [Discord CLI](https://discord.com/developers/docs) - 内容不匹配 (置信度: 0.0%)
+- [Zoom CLI](https://developers.zoom.us/docs/) - 内容不匹配 (置信度: 20.0%)
+- [Telegram CLI](https://core.telegram.org/api) - 内容不匹配 (置信度: 20.0%)
+- [Better Stack CLI](https://betterstack.com/docs/cli) - HTTP 404
+- [Datadog CLI](https://docs.datadoghq.com/continuous_integration/testing_cli/) - HTTP 404
+- [Datadog Agent CLI](https://docs.datadoghq.com/agent/configuration/agent-commands) - 内容不匹配 (置信度: 20.0%)
+- [Jaeger CLI](https://www.jaegertracing.io/docs/latest/cli) - HTTP 404
+- [New Relic CLI](https://developer.newrelic.com/automate-workflows/get-started/new-relic-cli/) - 内容不匹配 (置信度: 26.7%)
+- [OpenTelemetry CLI](https://github.com/open-telemetry/opentelemetry-cli) - HTTP 404
+- [PagerDuty CLI](https://github.com/PagerDuty/pd-cli) - HTTP 404
+- [Bun](https://bun.sh/docs/cli/bun) - HTTP 404
+- [gem](https://guides.rubygems.org/) - 内容不匹配 (置信度: 0.0%)
+- [Deno](https://docs.deno.com/runtime/reference) - HTTP 404
+- [npm](https://docs.npmjs.com/cli-documentation/) - 内容不匹配 (置信度: 10.0%)
+- [uv](https://docs.astral.sh/uv/) - 内容不匹配 (置信度: 20.0%)
+- [Square CLI](https://developer.squareup.com/docs/tools/cli) - HTTP 404
+- [Asana CLI](https://developers.asana.com/reference/cli) - HTTP 404
+- [PayPal CLI](https://developer.paypal.com/docs/api/overview/) - 内容不匹配 (置信度: 20.0%)
+- [Trello CLI](https://github.com/noffle/trello-cli) - HTTP 404
+- [Linear CLI](https://linear.app/docs) - 内容不匹配 (置信度: 20.0%)
+- [Let's Encrypt CLI](https://certbot.eff.org/instructions) - 内容不匹配 (置信度: 0.0%)
+- [Keycloak CLI](https://www.keycloak.org/docs/latest/server_admin/#admin-cli) - 内容不匹配 (置信度: 10.0%)
+- [LM Studio CLI](https://lmstudio.ai/docs) - 内容不匹配 (置信度: 0.0%)
+

@@ -1,7 +1,7 @@
 # Docker Compose CLI (`docker compose`)
 
 ## 基本信息
-- 官方文档：https://docs.docker.com/compose/
+- 官方文档：https://docs.docker.com/compose/reference/
 - 安装方式：随 Docker Desktop 安装
 - 开源：是 (Apache-2.0)
 - 平台支持：macOS / Linux / Windows

@@ -1,7 +1,7 @@
 # FFmpeg (`ffmpeg`)
 
 ## 基本信息
-- 官方文档：https://ffmpeg.org/documentation.html
+- 官方文档：https://ffmpeg.org/ffmpeg-all.html
 - 安装方式：`brew install ffmpeg`
 - 开源：是 (LGPL-2.1 / GPL-2.0)
 - 平台支持：macOS / Linux / Windows
