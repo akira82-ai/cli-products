@@ -6,7 +6,7 @@ permalink: /dev-utility/
 
 # 开发者实用工具
 
-共收录 18 个 CLI 工具。
+共收录 19 个 CLI 工具。
 
 ## 工具列表
 
@@ -30,3 +30,4 @@ permalink: /dev-utility/
 | [xq](xq.md) | `xq` | XML/HTML 解析提取 | [🔗](https://github.com/sibprogrammer/xq) |
 | [yq](yq.md) | `yq` | YAML/TOML/JSON 文件处理 | [🔗](https://mikefarah.gitbook.io/yq/) |
 | [yt-dlp](yt-dlp.md) | `yt-dlp` | 下载 YouTube/B站等平台视频和字幕 | [🔗](https://github.com/yt-dlp/yt-dlp) |
+| [Field Theory CLI](fieldtheory.md) | `ft` | X/Twitter 书签本地化管理与 Agent 交互 | [🔗](https://fieldtheory.dev/cli) |

@@ -6,7 +6,7 @@ permalink: /container/
 
 # 容器/编排
 
-共收录 12 个 CLI 工具。
+共收录 13 个 CLI 工具。
 
 ## 工具列表
 
@@ -24,3 +24,4 @@ permalink: /container/
 | [Minikube](minikube.md) | `minikube` | 本地 K8s 开发环境 | [🔗](https://minikube.sigs.k8s.io/docs/commands/) |
 | [Podman CLI](podman.md) | `podman` | 无守护进程的容器运行（更安全） | [🔗](https://docs.podman.io/en/latest/Commands.html) |
 | [Skopeo CLI](skopeo.md) | `skopeo` | 容器镜像仓库操作（无需拉取完整镜像） | [🔗](https://github.com/containers/skopeo) |
+| [Agent Browser](agent-browser.md) | `agent-browser` | Vercel Labs 出品的 AI Agent 浏览器自动化工具 | [🔗](https://agent-browser.dev/) |

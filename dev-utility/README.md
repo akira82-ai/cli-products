@@ -1,6 +1,6 @@
 # 开发者实用工具
 
-共收录 18 个 CLI 工具。
+共收录 19 个 CLI 工具。
 
 ## 工具列表
 
@@ -24,3 +24,4 @@
 | [xq](xq.md) | `xq` | XML/HTML 解析提取 |
 | [yq](yq.md) | `yq` | YAML/TOML/JSON 文件处理 |
 | [yt-dlp](yt-dlp.md) | `yt-dlp` | 下载 YouTube/B站等平台视频和字幕 |
+| [Field Theory CLI](fieldtheory.md) | `ft` | X/Twitter 书签本地化管理与 Agent 交互 |

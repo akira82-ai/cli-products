@@ -1,6 +1,6 @@
 # 容器/编排
 
-共收录 12 个 CLI 工具。
+共收录 13 个 CLI 工具。
 
 ## 工具列表
 
@@ -18,3 +18,4 @@
 | [Minikube](minikube.md) | `minikube` | 本地 K8s 开发环境 |
 | [Podman CLI](podman.md) | `podman` | 无守护进程的容器运行（更安全） |
 | [Skopeo CLI](skopeo.md) | `skopeo` | 容器镜像仓库操作（无需拉取完整镜像） |
+| [Agent Browser](agent-browser.md) | `agent-browser` | Vercel Labs 出品的 AI Agent 浏览器自动化工具 |

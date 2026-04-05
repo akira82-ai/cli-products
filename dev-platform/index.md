@@ -6,7 +6,7 @@ permalink: /dev-platform/
 
 # 开发者平台
 
-共收录 8 个 CLI 工具。
+共收录 9 个 CLI 工具。
 
 ## 工具列表
 
@@ -20,3 +20,4 @@ permalink: /dev-platform/
 | [Render CLI](render.md) | `render` | Render 平台服务管理 |
 | [Vercel CLI](vercel.md) | `vercel` | 前端项目和 Serverless 函数部署 |
 | [Cloudflare Workers CLI](wrangler.md) | `wrangler` | Cloudflare Workers 边缘计算开发 |
+| [Google Workspace CLI](google-workspace.md) | `gws` | Google Drive/Gmail/Calendar 等全平台 CLI | [🔗](https://github.com/googleworkspace/cli) |

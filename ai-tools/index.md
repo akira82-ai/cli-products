@@ -6,7 +6,7 @@ permalink: /ai-tools/
 
 # ai-tools
 
-共收录 14 个 CLI 工具。
+共收录 15 个 CLI 工具。
 
 ## 工具列表
 
@@ -26,3 +26,4 @@ permalink: /ai-tools/
 | [Ollama CLI](ollama.md) | `ollama` | 本地运行大语言模型 | [🔗](https://github.com/ollama/ollama) |
 | [OpenCode CLI](opencode.md) | `opencode` | 开源 AI 编程终端工具（Go 编写） | [🔗](https://github.com/opencode-ai/opencode) |
 | [Qwen Code CLI](qwen-code.md) | `qwen-code` | 阿里通义千问编程助手 | [🔗](https://github.com/QwenLM/qwen-code) |
+| [即梦AI CLI](jimeng-ai.md) | `jimeng` | 字节跳动AI图片视频生成工具 | [🔗](https://jimeng.jianying.com/) |

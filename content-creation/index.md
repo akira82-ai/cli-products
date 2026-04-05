@@ -6,7 +6,7 @@ permalink: /content-creation/
 
 # content-creation
 
-共收录 10 个 CLI 工具。
+共收录 12 个 CLI 工具。
 
 ## 工具列表
 
@@ -22,3 +22,5 @@ permalink: /content-creation/
 | [MkDocs CLI](mkdocs.md) | `mkdocs` | Markdown 项目文档站点 | [🔗](https://www.mkdocs.org/user-guide/cli/) |
 | [Next.js CLI](nextjs.md) | `next` | React 全栈应用开发 | [🔗](https://nextjs.org/docs/app/api-reference/cli) |
 | [Translate Shell](translate-shell.md) | `trans` | 命令行调用 Google 翻译 | [🔗](https://github.com/soimort/translate-shell) |
+| [小红书 CLI](xiaohongshu-cli.md) | `xiaohongshu` | 小红书笔记搜索、阅读、发布、互动（卡比卡比） | [🔗](https://github.com/jackwener/xiaohongshu-cli) |
+| [Bilibili CLI](bilibili-cli.md) | `bilibili` | B站视频搜索、下载、互动（卡比卡比） | [🔗](https://github.com/jackwener/bilibili-cli) |
