@@ -88,6 +88,12 @@
           "command": "`qwen-code`",
           "description": "阿里通义千问编程助手",
           "official_url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "name": "[即梦AI CLI](jimeng-ai.md)",
+          "command": "`jimeng`",
+          "description": "字节跳动AI图片视频生成工具",
+          "official_url": "https://jimeng.jianying.com/"
         }
       ]
     },
@@ -253,6 +259,36 @@
           "command": "`twilio`",
           "description": "发送短信、语音通知和邮件的自动化脚本",
           "official_url": "https://www.twilio.com/docs/twilio-cli"
+        },
+        {
+          "name": "[企业微信](wecom.md)",
+          "command": "`wecom`",
+          "description": "企业内部应用开发与消息推送",
+          "official_url": "https://developer.work.weixin.qq.com/"
+        },
+        {
+          "name": "[飞书 Lark CLI](lark-cli.md)",
+          "command": "`lark-cli`",
+          "description": "AI Agent 自动化操作飞书",
+          "official_url": "https://open.feishu.cn/"
+        },
+        {
+          "name": "[钉钉 Design CLI](dingtalk-design-cli.md)",
+          "command": "`dingtalk-design`",
+          "description": "钉钉小程序与微应用开发",
+          "official_url": "https://open.dingtalk.com/"
+        },
+        {
+          "name": "[Twitter/X CLI](twitter-cli.md)",
+          "command": "`twitter`",
+          "description": "Twitter/X 时间线、搜索、发推、互动（卡比卡比）",
+          "official_url": "https://github.com/jackwener/twitter-cli"
+        },
+        {
+          "name": "[飞书文档管理 CLI](feishu-docx.md)",
+          "command": "`feishu-docx`",
+          "description": "飞书知识库管理、Markdown 双向转换",
+          "official_url": "https://github.com/leemysw/feishu-docx"
         }
       ]
     },
@@ -332,6 +368,12 @@
           "command": "`skopeo`",
           "description": "容器镜像仓库操作（无需拉取完整镜像）",
           "official_url": "https://github.com/containers/skopeo"
+        },
+        {
+          "name": "[Agent Browser](agent-browser.md)",
+          "command": "`agent-browser`",
+          "description": "Vercel Labs 出品的 AI Agent 浏览器自动化工具",
+          "official_url": "https://agent-browser.dev/"
         }
       ]
     },
@@ -399,6 +441,18 @@
           "command": "`trans`",
           "description": "命令行调用 Google 翻译",
           "official_url": "https://github.com/soimort/translate-shell"
+        },
+        {
+          "name": "[小红书 CLI](xiaohongshu-cli.md)",
+          "command": "`xiaohongshu`",
+          "description": "小红书笔记搜索、阅读、发布、互动（卡比卡比）",
+          "official_url": "https://github.com/jackwener/xiaohongshu-cli"
+        },
+        {
+          "name": "[Bilibili CLI](bilibili-cli.md)",
+          "command": "`bilibili`",
+          "description": "B站视频搜索、下载、互动（卡比卡比）",
+          "official_url": "https://github.com/jackwener/bilibili-cli"
         }
       ]
     },
@@ -583,6 +637,12 @@
           "command": "`wrangler`",
           "description": "Cloudflare Workers 边缘计算开发",
           "official_url": "https://developers.cloudflare.com/workers/wrangler/"
+        },
+        {
+          "name": "[Google Workspace CLI](google-workspace.md)",
+          "command": "`gws`",
+          "description": "Google Drive/Gmail/Calendar 等全平台 CLI",
+          "official_url": "https://github.com/googleworkspace/cli"
         }
       ]
     },
@@ -741,6 +801,12 @@
           "command": "`yt-dlp`",
           "description": "下载 YouTube/B站等平台视频和字幕",
           "official_url": "https://github.com/yt-dlp/yt-dlp"
+        },
+        {
+          "name": "[Field Theory CLI](fieldtheory.md)",
+          "command": "`ft`",
+          "description": "X/Twitter 书签本地化管理与 Agent 交互",
+          "official_url": "https://fieldtheory.dev/cli"
         }
       ]
     },
@@ -1052,6 +1118,12 @@
           "name": "[Stripe CLI](stripe.md)",
           "command": "`stripe`",
           "description": "本地开发调试 Stripe Webhook，无需暴露公网端口",
+          "official_url": "https://docs.stripe.com/stripe-cli"
+        },
+        {
+          "name": "[Stripe Projects CLI](stripe-projects.md)",
+          "command": "`stripe projects`",
+          "description": "一键创建 Stripe 项目并自动配置计费",
           "official_url": "https://docs.stripe.com/stripe-cli"
         }
       ]
